@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^9.1",
         "drupal/pathauto": "^1.8",
         "drupal/search_api": "^1.19",
+        "drupal/tablefield": "^2.2",
         "drupal/token": "^1.9",
         "drupal/webform": "^6.0",
         "drupal/youtube": "^1.2",
