@@ -192,8 +192,9 @@
       display: flex;
       flex-direction: column;
       height: 100%;
-      outline: 0; }
-      /* line 205, scss/custom/front.scss */
+      outline: 0;
+      align-items: flex-start; }
+      /* line 206, scss/custom/front.scss */
       .home-gerais .slider-item-inner a .programa {
         margin-bottom: 20px;
         border-radius: 50px;
@@ -205,18 +206,249 @@
         padding: 5px 15px;
         font-size: 16px;
         font-weight: 700; }
-        /* line 216, scss/custom/front.scss */
+        /* line 217, scss/custom/front.scss */
         .home-gerais .slider-item-inner a .programa:before {
           content: "Programa "; }
-      /* line 220, scss/custom/front.scss */
+      /* line 221, scss/custom/front.scss */
       .home-gerais .slider-item-inner a .title {
         display: block;
         color: #23a8e0;
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px; }
-    /* line 228, scss/custom/front.scss */
+    /* line 229, scss/custom/front.scss */
     .home-gerais .slider-item-inner img {
+      margin-top: auto;
+      width: 100%;
+      height: auto; }
+
+/* line 238, scss/custom/front.scss */
+section.amazonia {
+  position: relative;
+  padding-top: 380px;
+  padding-bottom: 137px;
+  background-color: #87b924; }
+  /* line 243, scss/custom/front.scss */
+  section.amazonia:before, section.amazonia:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0; }
+  /* line 250, scss/custom/front.scss */
+  section.amazonia:before {
+    height: 380px;
+    background: url(../../img/home-section-green-top.jpg) center top no-repeat;
+    top: 0; }
+  /* line 255, scss/custom/front.scss */
+  section.amazonia:after {
+    height: 137px;
+    background: url(../../img/home-section-green-bottom.jpg) center top no-repeat;
+    bottom: 0; }
+
+/* line 262, scss/custom/front.scss */
+.home-amazonia {
+  position: relative; }
+  /* line 265, scss/custom/front.scss */
+  .home-amazonia .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px; }
+    /* line 270, scss/custom/front.scss */
+    .home-amazonia .header h2 {
+      font-size: 0;
+      width: 100%;
+      height: 125px;
+      background: url(../../img/home-title-amazonia.png) center top no-repeat;
+      padding: 0;
+      margin: 0; }
+    /* line 278, scss/custom/front.scss */
+    .home-amazonia .header p {
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      flex: 0 0 70%;
+      max-width: 70%; }
+  /* line 286, scss/custom/front.scss */
+  .home-amazonia .slick-track {
+    display: flex;
+    height: 100%; }
+  /* line 290, scss/custom/front.scss */
+  .home-amazonia .slider-item {
+    float: none;
+    height: auto; }
+  /* line 294, scss/custom/front.scss */
+  .home-amazonia .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: 0;
+    font-size: 0;
+    outline: 0; }
+    /* line 303, scss/custom/front.scss */
+    .home-amazonia .slick-arrow.slick-prev {
+      left: -40px;
+      background: url(../../img/icon-arrow-left-green.png) center no-repeat; }
+    /* line 307, scss/custom/front.scss */
+    .home-amazonia .slick-arrow.slick-next {
+      right: -40px;
+      background: url(../../img/icon-arrow-right-green.png) center no-repeat; }
+  /* line 312, scss/custom/front.scss */
+  .home-amazonia .slider-item-inner {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 15px; }
+    /* line 316, scss/custom/front.scss */
+    .home-amazonia .slider-item-inner a {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      outline: 0;
+      align-items: flex-start; }
+      /* line 326, scss/custom/front.scss */
+      .home-amazonia .slider-item-inner a .programa {
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: #fdc300;
+        color: #6a246d;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 15px;
+        font-size: 16px;
+        font-weight: 700; }
+        /* line 337, scss/custom/front.scss */
+        .home-amazonia .slider-item-inner a .programa:before {
+          content: "Programa "; }
+      /* line 341, scss/custom/front.scss */
+      .home-amazonia .slider-item-inner a .title {
+        display: block;
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px; }
+    /* line 349, scss/custom/front.scss */
+    .home-amazonia .slider-item-inner img {
+      margin-top: auto;
+      width: 100%;
+      height: auto; }
+
+/* line 358, scss/custom/front.scss */
+section.afro {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 102px;
+  background-color: #fdc300; }
+  /* line 363, scss/custom/front.scss */
+  section.afro .bailarina {
+    display: block;
+    width: 150px;
+    height: 400px;
+    background: url(../../img/bailarina.png) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    top: 0;
+    margin-top: -20px; }
+  /* line 375, scss/custom/front.scss */
+  section.afro:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 102px;
+    background: url(../../img/home-section-yellow-bottom.jpg) center top no-repeat;
+    bottom: 0; }
+
+/* line 386, scss/custom/front.scss */
+.home-afro {
+  position: relative; }
+  /* line 389, scss/custom/front.scss */
+  .home-afro .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px; }
+    /* line 394, scss/custom/front.scss */
+    .home-afro .header h2 {
+      font-size: 0;
+      width: 100%;
+      height: 125px;
+      background: url(../../img/home-title-afro.png) center top no-repeat;
+      padding: 0;
+      margin: 0; }
+    /* line 402, scss/custom/front.scss */
+    .home-afro .header p {
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      flex: 0 0 70%;
+      max-width: 70%; }
+  /* line 410, scss/custom/front.scss */
+  .home-afro .slick-track {
+    display: flex;
+    height: 100%; }
+  /* line 414, scss/custom/front.scss */
+  .home-afro .slider-item {
+    float: none;
+    height: auto; }
+  /* line 418, scss/custom/front.scss */
+  .home-afro .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: 0;
+    font-size: 0;
+    outline: 0; }
+    /* line 427, scss/custom/front.scss */
+    .home-afro .slick-arrow.slick-prev {
+      left: -40px;
+      background: url(../../img/icon-arrow-left-yellow.png) center no-repeat; }
+    /* line 431, scss/custom/front.scss */
+    .home-afro .slick-arrow.slick-next {
+      right: -40px;
+      background: url(../../img/icon-arrow-right-yellow.png) center no-repeat; }
+  /* line 436, scss/custom/front.scss */
+  .home-afro .slider-item-inner {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 15px; }
+    /* line 440, scss/custom/front.scss */
+    .home-afro .slider-item-inner a {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      outline: 0;
+      align-items: flex-start; }
+      /* line 450, scss/custom/front.scss */
+      .home-afro .slider-item-inner a .programa {
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: #6a246d;
+        color: #fff;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 15px;
+        font-size: 16px;
+        font-weight: 700; }
+        /* line 461, scss/custom/front.scss */
+        .home-afro .slider-item-inner a .programa:before {
+          content: "Programa "; }
+      /* line 465, scss/custom/front.scss */
+      .home-afro .slider-item-inner a .title {
+        display: block;
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px; }
+    /* line 473, scss/custom/front.scss */
+    .home-afro .slider-item-inner img {
       margin-top: auto;
       width: 100%;
       height: auto; }

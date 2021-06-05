@@ -35,5 +35,36 @@
         </div>
       </div>
     </section>
+    <section class="amazonia">
+      <div class="container-xl home-amazonia">
+
+        <div class="row">
+          <div class="col-xl-12 header">
+            <h2>Amazônia</h2>
+            <p>São os 48 programas realizados pelos contadores Leandro Medina e Andrea Soares que trazem histórias da cultura popular e tradicional dos povos indígenas, quilombolas e ribeirinhos. </p>
+          </div>
+          <div class="col-xl-12">
+            {{drupal_view('programas','amazonia')}}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="afro">
+    <span class="bailarina" data-aos="fade-up-right" data-aos-delay="1000"
+            data-aos-duration="1200"></span>
+      <div class="container-xl home-afro">
+
+        <div class="row">
+          <div class="col-xl-12 header">
+            <h2>Afro-Brasileiro</h2>
+            <p>
+São os 50 programas realizados pelas contadoras: Vovó Cici de Oxalá, Kemla Baptista, Mafuane Oliveira, Samara Rosa, Suane Brazão e pelo contador: Ivamar dos Santo que trazem histórias de resgate e empoderamento indentitário do povo preto.</p>
+          </div>
+          <div class="col-xl-12">
+            {{drupal_view('programas','afro_brasileiro')}}
+          </div>
+        </div>
+      </div>
+    </section>
   {% endblock %}
 {% endblock %}

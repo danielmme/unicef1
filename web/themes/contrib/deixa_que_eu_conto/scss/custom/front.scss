@@ -198,6 +198,7 @@
       flex-direction: column;
       height: 100%;
       outline: 0;
+      align-items: flex-start;
       span.programa,
       span.title {
         // display: block;
@@ -220,6 +221,250 @@
       .title {
         display: block;
         color: #23a8e0;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+    }
+    img {
+      margin-top: auto;
+      width: 100%;
+      height: auto;
+      // object-fit: cover;
+    }
+  }
+}
+// amazonia
+section.amazonia {
+  position: relative;
+  padding-top: 380px;
+  padding-bottom: 137px;
+  background-color: #87b924;
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  &:before {
+    height: 380px;
+    background: url(../../img/home-section-green-top.jpg) center top no-repeat;
+    top: 0;
+  }
+  &:after {
+    height: 137px;
+    background: url(../../img/home-section-green-bottom.jpg) center top
+      no-repeat;
+    bottom: 0;
+  }
+}
+.home-amazonia {
+  position: relative;
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+    h2 {
+      font-size: 0;
+      width: 100%;
+      height: 125px;
+      background: url(../../img/home-title-amazonia.png) center top no-repeat;
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+  }
+  .slick-track {
+    display: flex;
+    height: 100%;
+  }
+  .slider-item {
+    float: none;
+    height: auto;
+  }
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: 0;
+    font-size: 0;
+    outline: 0;
+    &.slick-prev {
+      left: -40px;
+      background: url(../../img/icon-arrow-left-green.png) center no-repeat;
+    }
+    &.slick-next {
+      right: -40px;
+      background: url(../../img/icon-arrow-right-green.png) center no-repeat;
+    }
+  }
+  .slider-item-inner {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 15px;
+    a {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      outline: 0;
+      align-items: flex-start;
+      span.programa,
+      span.title {
+        // display: block;
+      }
+      .programa {
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: #fdc300;
+        color: #6a246d;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 15px;
+        font-size: 16px;
+        font-weight: 700;
+        &:before {
+          content: "Programa ";
+        }
+      }
+      .title {
+        display: block;
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+    }
+    img {
+      margin-top: auto;
+      width: 100%;
+      height: auto;
+      // object-fit: cover;
+    }
+  }
+}
+// amazonia
+section.afro {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 102px;
+  background-color: #fdc300;
+  .bailarina {
+    display: block;
+    width: 150px;
+    height: 400px;
+    background: url(../../img/bailarina.png) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    top: 0;
+    margin-top: -20px;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 102px;
+    background: url(../../img/home-section-yellow-bottom.jpg) center top
+      no-repeat;
+    bottom: 0;
+  }
+}
+.home-afro {
+  position: relative;
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+    h2 {
+      font-size: 0;
+      width: 100%;
+      height: 125px;
+      background: url(../../img/home-title-afro.png) center top no-repeat;
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      text-align: center;
+      font-size: 16px;
+      color: #fff;
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+  }
+  .slick-track {
+    display: flex;
+    height: 100%;
+  }
+  .slider-item {
+    float: none;
+    height: auto;
+  }
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: 0;
+    font-size: 0;
+    outline: 0;
+    &.slick-prev {
+      left: -40px;
+      background: url(../../img/icon-arrow-left-yellow.png) center no-repeat;
+    }
+    &.slick-next {
+      right: -40px;
+      background: url(../../img/icon-arrow-right-yellow.png) center no-repeat;
+    }
+  }
+  .slider-item-inner {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 15px;
+    a {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      outline: 0;
+      align-items: flex-start;
+      span.programa,
+      span.title {
+        // display: block;
+      }
+      .programa {
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: #6a246d;
+        color: #fff;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 15px;
+        font-size: 16px;
+        font-weight: 700;
+        &:before {
+          content: "Programa ";
+        }
+      }
+      .title {
+        display: block;
+        color: #fff;
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px;
