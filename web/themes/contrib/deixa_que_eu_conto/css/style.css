@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Open Sans", sans-serif;
+  --font-family-sans-serif: "Roboto", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 /* line 19, ../bootstrap4/dist/bootstrap/4.6.0/scss/_reboot.scss */
@@ -55,7 +55,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 /* line 46, ../bootstrap4/dist/bootstrap/4.6.0/scss/_reboot.scss */
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5422,7 +5422,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5524,7 +5524,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9705,3 +9705,90 @@ code {
 /* line 17, scss/style.scss */
 body {
   overflow-x: hidden; }
+
+/* line 21, scss/style.scss */
+a.download {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fdc300;
+  padding-left: 58px; }
+  /* line 30, scss/style.scss */
+  a.download span {
+    font-size: 25px; }
+  /* line 33, scss/style.scss */
+  a.download:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: url(../img/footer-download.png) center no-repeat; }
+  /* line 44, scss/style.scss */
+  a.download.doc:before {
+    background: url(../img/footer-download2.png) center no-repeat; }
+
+/* line 49, scss/style.scss */
+ul.social-icons {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 0 0 100%;
+  max-width: 100%;
+  justify-content: space-between; }
+  /* line 57, scss/style.scss */
+  ul.social-icons li {
+    display: flex;
+    font-size: 18px;
+    color: #22a7df;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center; }
+    /* line 65, scss/style.scss */
+    ul.social-icons li:not(:first-child) {
+      margin-left: 10px; }
+    /* line 68, scss/style.scss */
+    ul.social-icons li a {
+      color: #22a7df; }
+    /* line 71, scss/style.scss */
+    ul.social-icons li:after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 38px;
+      margin-left: 5px; }
+    /* line 79, scss/style.scss */
+    ul.social-icons li.icon-facebook:after {
+      background: url(../img/icon-social-facebook.png) center no-repeat; }
+    /* line 84, scss/style.scss */
+    ul.social-icons li.icon-twitter:after {
+      background: url(../img/icon-social-facebook.png) center no-repeat; }
+    /* line 89, scss/style.scss */
+    ul.social-icons li.icon-instagram:after {
+      background: url(../img/icon-social-instagram.png) center no-repeat; }
+    /* line 94, scss/style.scss */
+    ul.social-icons li.icon-whatsapp:after {
+      background: url(../img/icon-social-whatsapp.png) center no-repeat; }
+    /* line 99, scss/style.scss */
+    ul.social-icons li.icon-linkedin:after {
+      background: url(../img/icon-social-linkedin.png) center no-repeat; }
+    /* line 104, scss/style.scss */
+    ul.social-icons li.icon-spotify:after {
+      background: url(../img/icon-social-spotify.png) center no-repeat; }
+    /* line 109, scss/style.scss */
+    ul.social-icons li.icon-youtube:after {
+      background: url(../img/icon-social-youtube.png) center no-repeat; }
+  /* line 115, scss/style.scss */
+  ul.social-icons.only-icons li {
+    font-size: 0; }
+    /* line 117, scss/style.scss */
+    ul.social-icons.only-icons li:after {
+      margin: 0 5px 10px; }

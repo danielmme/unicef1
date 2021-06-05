@@ -8,12 +8,115 @@
 
 // Include parent theme with all things Bootstrap for full override.
 // Relative path to this styles.scss file.
-// Example: @import "../../../../../themes/contrib/bootstrap4/scss/style";
+// Example: @import "../../../themes/contrib/bootstrap4/scss/style";
 // @import "[DOCROOT]/themes/contrib/bootstrap4/scss/style";
-@import "../../bootstrap4/scss/style";
+@import "../bootstrap4/scss/style";
 // OR to go back to Bootstrap 4.6.0
 //@import "[DOCROOT]/themes/contrib/bootstrap4/scss/style-4-5";
 
 body {
   overflow-x: hidden;
+}
+
+a.download {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fdc300;
+  padding-left: 58px;
+  span {
+    font-size: 25px;
+  }
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: url(../img/footer-download.png) center no-repeat;
+  }
+  &.doc:before {
+    background: url(../img/footer-download2.png) center no-repeat;
+  }
+}
+
+ul.social-icons {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 0 0 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  li {
+    display: flex;
+    font-size: 18px;
+    color: #22a7df;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+    a {
+      color: #22a7df;
+    }
+    &:after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 38px;
+      margin-left: 5px;
+    }
+    &.icon-facebook {
+      &:after {
+        background: url(../img/icon-social-facebook.png) center no-repeat;
+      }
+    }
+    &.icon-twitter {
+      &:after {
+        background: url(../img/icon-social-facebook.png) center no-repeat;
+      }
+    }
+    &.icon-instagram {
+      &:after {
+        background: url(../img/icon-social-instagram.png) center no-repeat;
+      }
+    }
+    &.icon-whatsapp {
+      &:after {
+        background: url(../img/icon-social-whatsapp.png) center no-repeat;
+      }
+    }
+    &.icon-linkedin {
+      &:after {
+        background: url(../img/icon-social-linkedin.png) center no-repeat;
+      }
+    }
+    &.icon-spotify {
+      &:after {
+        background: url(../img/icon-social-spotify.png) center no-repeat;
+      }
+    }
+    &.icon-youtube {
+      &:after {
+        background: url(../img/icon-social-youtube.png) center no-repeat;
+      }
+    }
+  }
+  &.only-icons {
+    li {
+      font-size: 0;
+      &:after {
+        margin: 0 5px 10px;
+      }
+    }
+  }
 }

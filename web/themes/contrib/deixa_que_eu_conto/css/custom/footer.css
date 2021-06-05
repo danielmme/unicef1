@@ -28,109 +28,23 @@
       padding-bottom: 25px; }
 
 /* line 30, scss/custom/footer.scss */
-ul.social-icons {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  flex: 0 0 100%;
-  max-width: 100%;
-  justify-content: space-between; }
-  /* line 38, scss/custom/footer.scss */
-  ul.social-icons li {
-    display: flex;
-    font-size: 18px;
-    color: #22a7df;
-    font-weight: 700;
-    text-transform: uppercase;
-    justify-content: space-between;
-    align-items: center; }
-    /* line 46, scss/custom/footer.scss */
-    ul.social-icons li:not(:first-child) {
-      margin-left: 10px; }
-    /* line 49, scss/custom/footer.scss */
-    ul.social-icons li a {
-      color: #22a7df; }
-    /* line 52, scss/custom/footer.scss */
-    ul.social-icons li:after {
-      content: "";
-      display: block;
-      width: 40px;
-      height: 38px;
-      margin-left: 5px; }
-    /* line 60, scss/custom/footer.scss */
-    ul.social-icons li.icon-facebook:after {
-      background: url(../../img/icon-social-facebook.png) center no-repeat; }
-    /* line 65, scss/custom/footer.scss */
-    ul.social-icons li.icon-twitter:after {
-      background: url(../../img/icon-social-facebook.png) center no-repeat; }
-    /* line 70, scss/custom/footer.scss */
-    ul.social-icons li.icon-instagram:after {
-      background: url(../../img/icon-social-instagram.png) center no-repeat; }
-    /* line 75, scss/custom/footer.scss */
-    ul.social-icons li.icon-whatsapp:after {
-      background: url(../../img/icon-social-whatsapp.png) center no-repeat; }
-    /* line 80, scss/custom/footer.scss */
-    ul.social-icons li.icon-linkedin:after {
-      background: url(../../img/icon-social-linkedin.png) center no-repeat; }
-    /* line 85, scss/custom/footer.scss */
-    ul.social-icons li.icon-spotify:after {
-      background: url(../../img/icon-social-spotify.png) center no-repeat; }
-    /* line 90, scss/custom/footer.scss */
-    ul.social-icons li.icon-youtube:after {
-      background: url(../../img/icon-social-youtube.png) center no-repeat; }
-  /* line 96, scss/custom/footer.scss */
-  ul.social-icons.only-icons li {
-    font-size: 0; }
-    /* line 98, scss/custom/footer.scss */
-    ul.social-icons.only-icons li:after {
-      margin: 0 5px 10px; }
-
-/* line 105, scss/custom/footer.scss */
 footer.footer {
   background: url(../../img/footer-bottom-top-bg.jpg) center top no-repeat #009fe3;
   padding-top: 250px;
   padding-bottom: 50px; }
-  /* line 110, scss/custom/footer.scss */
-  footer.footer a.download {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #fdc300;
-    padding-left: 58px; }
-    /* line 119, scss/custom/footer.scss */
-    footer.footer a.download span {
-      font-size: 25px; }
-    /* line 122, scss/custom/footer.scss */
-    footer.footer a.download:before {
-      content: "";
-      display: block;
-      position: absolute;
-      width: 47px;
-      height: 47px;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 0;
-      background: url(../../img/footer-download.png) center no-repeat; }
-    /* line 133, scss/custom/footer.scss */
-    footer.footer a.download.doc:before {
-      background: url(../../img/footer-download2.png) center no-repeat; }
 
-/* line 139, scss/custom/footer.scss */
+/* line 37, scss/custom/footer.scss */
 .footer-menu {
   list-style: none;
   padding: 0;
   margin: 0; }
-  /* line 143, scss/custom/footer.scss */
+  /* line 41, scss/custom/footer.scss */
   .footer-menu li {
     font-size: 18px;
     font-weight: 100;
     display: flex;
     align-items: center; }
-    /* line 148, scss/custom/footer.scss */
+    /* line 46, scss/custom/footer.scss */
     .footer-menu li:before {
       content: "";
       display: flex;
@@ -138,6 +52,6 @@ footer.footer {
       height: 14px;
       background: url(../../img/footer-menu-icon.png) center no-repeat;
       margin-right: 8px; }
-    /* line 156, scss/custom/footer.scss */
+    /* line 54, scss/custom/footer.scss */
     .footer-menu li a {
       color: #fff; }
