@@ -105,3 +105,118 @@
   /* line 110, scss/custom/front.scss */
   .busca-home .view-content {
     display: none; }
+
+/* line 117, scss/custom/front.scss */
+.home-gerais {
+  padding-top: 82px;
+  padding-bottom: 120px;
+  position: relative; }
+  /* line 121, scss/custom/front.scss */
+  .home-gerais .kite {
+    display: block;
+    width: 240px;
+    height: 150px;
+    background: url(../../img/kite.png) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    margin-left: -60px;
+    top: 0;
+    margin-top: -60px; }
+  /* line 133, scss/custom/front.scss */
+  .home-gerais .hero {
+    display: block;
+    width: 130px;
+    height: 330px;
+    background: url(../../img/hero.png) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    margin-right: -60px;
+    top: 0;
+    margin-top: -20px; }
+  /* line 145, scss/custom/front.scss */
+  .home-gerais .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px; }
+    /* line 150, scss/custom/front.scss */
+    .home-gerais .header h2 {
+      font-size: 0;
+      width: 100%;
+      height: 125px;
+      background: url(../../img/home-title-gerais.png) center top no-repeat;
+      padding: 0;
+      margin: 0; }
+    /* line 158, scss/custom/front.scss */
+    .home-gerais .header p {
+      text-align: center;
+      font-size: 16px;
+      color: #666;
+      flex: 0 0 70%;
+      max-width: 70%; }
+  /* line 166, scss/custom/front.scss */
+  .home-gerais .slick-track {
+    display: flex;
+    height: 100%; }
+  /* line 170, scss/custom/front.scss */
+  .home-gerais .slider-item {
+    float: none;
+    height: auto; }
+  /* line 174, scss/custom/front.scss */
+  .home-gerais .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    border: 0;
+    font-size: 0;
+    outline: 0; }
+    /* line 183, scss/custom/front.scss */
+    .home-gerais .slick-arrow.slick-prev {
+      left: -35px;
+      background: url(../../img/icon-arrow-left.png) center no-repeat; }
+    /* line 187, scss/custom/front.scss */
+    .home-gerais .slick-arrow.slick-next {
+      right: -35px;
+      background: url(../../img/icon-arrow-right.png) center no-repeat; }
+  /* line 192, scss/custom/front.scss */
+  .home-gerais .slider-item-inner {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 15px; }
+    /* line 196, scss/custom/front.scss */
+    .home-gerais .slider-item-inner a {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      outline: 0; }
+      /* line 205, scss/custom/front.scss */
+      .home-gerais .slider-item-inner a .programa {
+        margin-bottom: 20px;
+        border-radius: 50px;
+        background-color: #ffc301;
+        color: #009fe3;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 15px;
+        font-size: 16px;
+        font-weight: 700; }
+        /* line 216, scss/custom/front.scss */
+        .home-gerais .slider-item-inner a .programa:before {
+          content: "Programa "; }
+      /* line 220, scss/custom/front.scss */
+      .home-gerais .slider-item-inner a .title {
+        display: block;
+        color: #23a8e0;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px; }
+    /* line 228, scss/custom/front.scss */
+    .home-gerais .slider-item-inner img {
+      margin-top: auto;
+      width: 100%;
+      height: auto; }
