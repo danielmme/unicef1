@@ -1,0 +1,100 @@
+.footer-infos {
+  h2 {
+    font-size: 35px;
+    color: #22a7df;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}
+.footer-share {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .container {
+    border: solid 1px #fdd446;
+    border-radius: 100px;
+    padding: 20px 100px;
+    @media (max-width: 768px) {
+      padding: 50px 30px;
+    }
+    h2 {
+      font-size: 18px;
+      color: #fdc300;
+      font-weight: 700;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      padding-bottom: 25px;
+    }
+    ul.social-icons {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      flex: 0 0 100%;
+      max-width: 100%;
+      justify-content: space-between;
+      li {
+        display: flex;
+        font-size: 18px;
+        color: #22a7df;
+        font-weight: 700;
+        text-transform: uppercase;
+        justify-content: space-between;
+        align-items: center;
+        &:not(:first-child) {
+          margin-left: 10px;
+        }
+        &:after {
+          content: "";
+          display: block;
+          width: 40px;
+          height: 38px;
+          margin-left: 5px;
+        }
+        &.icon-facebook {
+          &:after {
+            background: url(../../img/icon-social-facebook.png) center no-repeat;
+          }
+        }
+        &.icon-twitter {
+          &:after {
+            background: url(../../img/icon-social-facebook.png) center no-repeat;
+          }
+        }
+        &.icon-instagram {
+          &:after {
+            background: url(../../img/icon-social-instagram.png) center
+              no-repeat;
+          }
+        }
+        &.icon-whatsapp {
+          &:after {
+            background: url(../../img/icon-social-whatsapp.png) center no-repeat;
+          }
+        }
+        &.icon-linkedin {
+          &:after {
+            background: url(../../img/icon-social-linkedin.png) center no-repeat;
+          }
+        }
+        &.icon-spotify {
+          &:after {
+            background: url(../../img/icon-social-spotify.png) center no-repeat;
+          }
+        }
+        &.icon-youtube {
+          &:after {
+            background: url(../../img/icon-social-youtube.png) center no-repeat;
+          }
+        }
+      }
+      &.only-icons {
+        li {
+          font-size: 0;
+          &:after {
+            margin: 0 5px 10px;
+          }
+        }
+      }
+    }
+  }
+}

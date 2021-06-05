@@ -1,0 +1,83 @@
+/* line 2, scss/custom/footer.scss */
+.footer-infos h2 {
+  font-size: 35px;
+  color: #22a7df;
+  font-weight: 700;
+  margin-bottom: 0; }
+
+/* line 9, scss/custom/footer.scss */
+.footer-share {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  /* line 12, scss/custom/footer.scss */
+  .footer-share .container {
+    border: solid 1px #fdd446;
+    border-radius: 100px;
+    padding: 20px 100px; }
+    @media (max-width: 768px) {
+      /* line 12, scss/custom/footer.scss */
+      .footer-share .container {
+        padding: 50px 30px; } }
+    /* line 19, scss/custom/footer.scss */
+    .footer-share .container h2 {
+      font-size: 18px;
+      color: #fdc300;
+      font-weight: 700;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      padding-bottom: 25px; }
+    /* line 27, scss/custom/footer.scss */
+    .footer-share .container ul.social-icons {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      flex: 0 0 100%;
+      max-width: 100%;
+      justify-content: space-between; }
+      /* line 35, scss/custom/footer.scss */
+      .footer-share .container ul.social-icons li {
+        display: flex;
+        font-size: 18px;
+        color: #22a7df;
+        font-weight: 700;
+        text-transform: uppercase;
+        justify-content: space-between;
+        align-items: center; }
+        /* line 43, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li:not(:first-child) {
+          margin-left: 10px; }
+        /* line 46, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li:after {
+          content: "";
+          display: block;
+          width: 40px;
+          height: 38px;
+          margin-left: 5px; }
+        /* line 54, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li.icon-facebook:after {
+          background: url(../../img/icon-social-facebook.png) center no-repeat; }
+        /* line 59, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li.icon-twitter:after {
+          background: url(../../img/icon-social-facebook.png) center no-repeat; }
+        /* line 64, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li.icon-instagram:after {
+          background: url(../../img/icon-social-instagram.png) center no-repeat; }
+        /* line 70, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li.icon-whatsapp:after {
+          background: url(../../img/icon-social-whatsapp.png) center no-repeat; }
+        /* line 75, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li.icon-linkedin:after {
+          background: url(../../img/icon-social-linkedin.png) center no-repeat; }
+        /* line 80, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li.icon-spotify:after {
+          background: url(../../img/icon-social-spotify.png) center no-repeat; }
+        /* line 85, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons li.icon-youtube:after {
+          background: url(../../img/icon-social-youtube.png) center no-repeat; }
+      /* line 91, scss/custom/footer.scss */
+      .footer-share .container ul.social-icons.only-icons li {
+        font-size: 0; }
+        /* line 93, scss/custom/footer.scss */
+        .footer-share .container ul.social-icons.only-icons li:after {
+          margin: 0 5px 10px; }

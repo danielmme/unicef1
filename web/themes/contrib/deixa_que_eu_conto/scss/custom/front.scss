@@ -358,7 +358,8 @@ section.amazonia {
 section.afro {
   position: relative;
   padding-top: 90px;
-  padding-bottom: 102px;
+  padding-bottom: 150px;
+  margin-bottom: 50px;
   background-color: #fdc300;
   .bailarina {
     display: block;
@@ -378,7 +379,7 @@ section.afro {
     width: 100%;
     left: 0;
     height: 102px;
-    background: url(../../img/home-section-yellow-bottom.jpg) center top
+    background: url(../../img/home-section-yellow-bottom.jpg) center bottom
       no-repeat;
     bottom: 0;
   }
