@@ -4,7 +4,8 @@ module.exports = {
   devtool: false,
   // entry: toObject(glob.sync("./assets/**/*.js*")),
   entry: {
-    front: "./js-dev/main.js",
+    main: "./js-dev/main.js",
+    front: "./js-dev/front.js",
   },
   output: {
     path: path.resolve(__dirname, `./js`),
