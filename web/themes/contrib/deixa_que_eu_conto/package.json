@@ -1,0 +1,51 @@
+{
+  "name": "DCP",
+  "version": "1.0.0",
+  "description": "dcp",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch",
+    "build": "npm run scss-build && npm run slick && npm run webpack",
+    "scss-watch": "node-sass ./scss -o ./css --source-comments -w",
+    "scss-build-dev": "node-sass ./scss -o ./css",
+    "scss-build": "node-sass ./scss -o ./css --output-style compressed",
+    "watch": "concurrently -p \"[{name}]\" -n \"CSS, JS ,Browser-Sync\" -c \"cyan, yellow ,magenta\" \"npm run scss-watch\" \"npm run js-watch\" \"npm run serve\" ",
+    "serve": "browser-sync start -s --serveStatic \".\" -f \"**/*.css,**/*.js,**/*.html\" --no-inject-changes --no-ghost-mode --no-ui --reload-delay 500 --port 7777",
+    "clean": "rimraf ./css",
+    "copyall": "cpx ./**/*.{html,png,jpg,svg,mp4,webm} ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "js": "webpack",
+    "js-watch": "npm run js -- --d --w",
+    "slick-css": "cpx ./node_modules/slick-carousel/slick/slick.css ./css",
+    "slick-js": "cpx ./node_modules/slick-carousel/slick/slick.min.js ./js",
+    "slick": "npm run slick-css && npm run slick-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavom/dcp_theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "copyfiles": "^2.2.0",
+    "cpx": "^1.5.0",
+    "node-sass": "^4.13.1",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/gustavom/dcp_theme/issues"
+  },
+  "homepage": "https://github.com/gustavom/dcp_theme#readme",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
