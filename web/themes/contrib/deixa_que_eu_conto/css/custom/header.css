@@ -1,0 +1,51 @@
+/* line 1, scss/custom/header.scss */
+header.header {
+  min-height: 956px;
+  background: url(../../img/header-bg.png) center no-repeat;
+  margin-bottom: 180px;
+  position: relative; }
+  /* line 8, scss/custom/header.scss */
+  header.header .unicef,
+  header.header .faixa-etaria {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0; }
+  /* line 16, scss/custom/header.scss */
+  header.header .unicef {
+    width: 107px;
+    height: 57px;
+    background: url(../../img/unicef-logo.png) center no-repeat;
+    background-size: contain;
+    left: 50px;
+    margin-bottom: -70px; }
+  /* line 25, scss/custom/header.scss */
+  header.header .faixa-etaria {
+    width: 107px;
+    height: 82px;
+    background: url(../../img/faixa-etaria.png) center no-repeat;
+    background-size: contain;
+    right: 50px;
+    margin-bottom: -70px; }
+  /* line 33, scss/custom/header.scss */
+  header.header .region-header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end; }
+    /* line 41, scss/custom/header.scss */
+    header.header .region-header > div[class*="branding"] .navbar-brand a {
+      width: 100%;
+      height: 100%;
+      max-width: 345px;
+      max-height: 249px;
+      margin-bottom: 40px; }
+      /* line 47, scss/custom/header.scss */
+      header.header .region-header > div[class*="branding"] .navbar-brand a img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain; }
+    /* line 53, scss/custom/header.scss */
+    header.header .region-header > div[class*="branding"] .navbar-brand div {
+      display: none; }

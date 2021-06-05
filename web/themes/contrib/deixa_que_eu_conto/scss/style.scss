@@ -13,3 +13,7 @@
 @import "../../bootstrap4/scss/style";
 // OR to go back to Bootstrap 4.6.0
 //@import "[DOCROOT]/themes/contrib/bootstrap4/scss/style-4-5";
+
+body {
+  overflow-x: hidden;
+}

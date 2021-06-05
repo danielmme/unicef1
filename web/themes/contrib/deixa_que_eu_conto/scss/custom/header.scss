@@ -1,0 +1,59 @@
+header.header {
+  min-height: 956px;
+  background: url(../../img/header-bg.png) center no-repeat;
+  margin-bottom: 180px;
+  position: relative;
+  // &:before,
+  // &:after {
+  .unicef,
+  .faixa-etaria {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+  // &:before {
+  .unicef {
+    width: 107px;
+    height: 57px;
+    background: url(../../img/unicef-logo.png) center no-repeat;
+    background-size: contain;
+    left: 50px;
+    margin-bottom: -70px;
+  }
+  // &:after {
+  .faixa-etaria {
+    width: 107px;
+    height: 82px;
+    background: url(../../img/faixa-etaria.png) center no-repeat;
+    background-size: contain;
+    right: 50px;
+    margin-bottom: -70px;
+  }
+  .region-header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    & > div[class*="branding"] {
+      .navbar-brand {
+        a {
+          width: 100%;
+          height: 100%;
+          max-width: 345px;
+          max-height: 249px;
+          margin-bottom: 40px;
+          img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: contain;
+          }
+        }
+        div {
+          display: none;
+        }
+      }
+    }
+  }
+}
