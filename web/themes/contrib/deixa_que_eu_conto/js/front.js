@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("(function () {\n  console.log('front');\n  AOS.init();\n})();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9qcy1kZXYvZnJvbnQuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9qcy1kZXYvZnJvbnQuanM/MjliMCJdLCJzb3VyY2VzQ29udGVudCI6WyIoZnVuY3Rpb24oKXtcbiAgY29uc29sZS5sb2coJ2Zyb250Jyk7XG5cbiAgICBBT1MuaW5pdCgpO1xufSkoKTtcbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUVBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./js-dev/front.js\n");
+eval("(function () {\n  console.log('front');\n  var $inputBtn = $('.form-actions input[type=\"submit\"]').clone(); // console.log($inputBtn);\n\n  $($inputBtn).addClass('show');\n  $('.form-type-textfield').append($inputBtn);\n  AOS.init();\n})();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9qcy1kZXYvZnJvbnQuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9qcy1kZXYvZnJvbnQuanM/MjliMCJdLCJzb3VyY2VzQ29udGVudCI6WyIoZnVuY3Rpb24oKXtcbiAgY29uc29sZS5sb2coJ2Zyb250Jyk7XG5cbiAgICB2YXIgJGlucHV0QnRuID0gJCgnLmZvcm0tYWN0aW9ucyBpbnB1dFt0eXBlPVwic3VibWl0XCJdJykuY2xvbmUoKVxuXG4gICAgLy8gY29uc29sZS5sb2coJGlucHV0QnRuKTtcbiAgICAkKCRpbnB1dEJ0bikuYWRkQ2xhc3MoJ3Nob3cnKTtcbiAgICAkKCcuZm9ybS10eXBlLXRleHRmaWVsZCcpLmFwcGVuZCgkaW5wdXRCdG4pO1xuXG4gICAgQU9TLmluaXQoKTtcbn0pKCk7XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFFQTtBQUNBO0FBRUE7QUFDQTtBQUVBO0FBQ0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./js-dev/front.js\n");
 
 /***/ })
 
