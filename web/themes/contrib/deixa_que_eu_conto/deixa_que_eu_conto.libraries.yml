@@ -17,6 +17,8 @@ page-front:
       css/custom/front.css: {}
   js:
     js/front.js: { scope: "footer" }
+  dependencies:
+    - deixa_que_eu_conto/global-styling
 
 slick:
   css:
