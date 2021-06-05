@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run watch",
-    "build": "npm run scss-build && npm run slick && npm run webpack",
+    "build": "npm run scss-build && npm run slick && npm run aos && npm run webpack",
     "scss-watch": "node-sass ./scss -o ./css --source-comments -w",
     "scss-build-dev": "node-sass ./scss -o ./css",
     "scss-build": "node-sass ./scss -o ./css --output-style compressed",
@@ -18,7 +18,10 @@
     "js-watch": "npm run js -- --d --w",
     "slick-css": "cpx ./node_modules/slick-carousel/slick/slick.css ./css",
     "slick-js": "cpx ./node_modules/slick-carousel/slick/slick.min.js ./js",
-    "slick": "npm run slick-css && npm run slick-js"
+    "slick": "npm run slick-css && npm run slick-js",
+    "aos-css": "cpx ./node_modules/aos/dist/aos.css ./css",
+    "aos-js": "cpx ./node_modules/aos/dist/aos.js ./js",
+    "aos": "npm run aos-css && npm run aos-js"
   },
   "repository": {
     "type": "git",
@@ -46,6 +49,7 @@
   },
   "homepage": "https://github.com/gustavom/dcp_theme#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "slick-carousel": "^1.8.1"
   }
 }
