@@ -1,0 +1,38 @@
+/* line 2, scss/custom/front.scss */
+.gray-section {
+  background-color: #f9f7f6;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 15px; }
+  /* line 7, scss/custom/front.scss */
+  .gray-section:before, .gray-section:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0; }
+  /* line 14, scss/custom/front.scss */
+  .gray-section:before {
+    height: 130px;
+    background: url(../../img/home-gray-section-top.png) center top no-repeat;
+    top: 0; }
+  /* line 19, scss/custom/front.scss */
+  .gray-section:after {
+    height: 125px;
+    background: url(../../img/home-gray-section-bottom.png) center top no-repeat;
+    bottom: 0; }
+
+/* line 27, scss/custom/front.scss */
+.busca-home .view-header h2 {
+  color: #6a246d;
+  font-size: 33px;
+  font-weight: 700; }
+
+/* line 34, scss/custom/front.scss */
+.busca-home .view-filters form .form--inline {
+  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: end; }
+  /* line 42, scss/custom/front.scss */
+  .busca-home .view-filters form .form--inline > div {
+    margin: 0; }

@@ -1,0 +1,50 @@
+@import "../custom/variables";
+.gray-section {
+  background-color: $gray-bg;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 15px;
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  &:before {
+    height: 130px;
+    background: url(../../img/home-gray-section-top.png) center top no-repeat;
+    top: 0;
+  }
+  &:after {
+    height: 125px;
+    background: url(../../img/home-gray-section-bottom.png) center top no-repeat;
+    bottom: 0;
+  }
+}
+
+.busca-home {
+  .view-header h2 {
+    color: #6a246d;
+    font-size: 33px;
+    font-weight: 700;
+  }
+  .view-filters {
+    form {
+      .form--inline {
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: flex-end;
+        gap: 15px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: end;
+        & > div {
+          // flex: 0 0 25%;
+          // max-width: 25%;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

@@ -105,6 +105,7 @@ set footer_classes = ' ' ~
    %}
 
 
+        {% block page_main %}
   <div class="{{ b4_top_container }}">
     {% if page.breadcrumb %}
       {{ page.breadcrumb }}
@@ -127,6 +128,7 @@ set footer_classes = ' ' ~
       {% endif %}
     </div>
   </div>
+        {% endblock %}
 
 </main>
 

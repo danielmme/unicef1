@@ -1,8 +1,18 @@
 {% extends "page.html.twig" %}
 {% block call_libs %}
-  {{ attach_library('deixa_que_eu_leio/page-front') }}
+  {{ attach_library('deixa_que_eu_conto/page-front') }}
 {% endblock %}
 
+{% block page_main %}
 {% block page_main_content %}
-<h1>Page front</h1>
-        {% endblock %}
+<section class="gray-section ">
+<div class="container-xl busca-home">
+<div class="row">
+  <div class="col-xl-12">
+    {{drupal_view('busca','page_1')}}
+  </div>
+</div>
+</div>
+</section>
+{% endblock %}
+{% endblock %}
