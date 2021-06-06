@@ -142,18 +142,37 @@
         </div>
         <div class="col-12">
           <div class="row pt-5">
-            <div class="col-12 col-lg-6 pb-5">
-              <h3>Direitos de Aprendizagem</h3>
+            <div class="col-12 col-lg-6 pb-5 text-align-center">
+              <h3 class="titles">Direitos de Aprendizagem</h3>
               {{content.field_direito_de_aprendizagem.0}}
             </div>
-            <div class="col-12 col-lg-6 pb-5">
-              <h3>Campos de Experiência</h3>
+            <div class="col-12 col-lg-6 pb-5 text-align-center">
+              <h3 class="titles">Campos de Experiência</h3>
               {{content.field_campos_de_experiencia.0}}
+              </div>
+          </div>
+        </div>
+        <div class="col-12 pb-5 text-align-center">
+          {{content.field_descricao.0}}
+        </div>
+        <div class="col-12  pb-5 text-align-center table-content">
+          <h3 class="titles">Neste Programa você vai encontrar:</h3>
+          {{content.field_tabela.0}}
+        </div>
+        <div class="col-12">
+          <div class="row pt-5">
+            <div class="col-12 col-lg-6 pb-5">
+              <h3 class="titles ">História:</h3>
+              {{content.field_historia.0}}
+            </div>
+            <div class="col-12 col-lg-6 pb-5">
+              <h3 class="titles">Personagens:</h3>
+              {{content.field_personagens.0}}
               </div>
           </div>
         </div>
       </div>
     </div>
-    {{ content }}
+    {# {{ content }} #}
 
 </article>

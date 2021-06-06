@@ -7,3 +7,32 @@
   padding: 25px 50px;
   border-radius: 50px;
   margin-bottom: 60px; }
+
+/* line 11, scss/custom/page.scss */
+.titles {
+  color: #029fe6;
+  font-weight: 700;
+  font-size: 18px; }
+
+/* line 18, scss/custom/page.scss */
+.table-content caption {
+  display: none; }
+
+/* line 21, scss/custom/page.scss */
+.table-content table {
+  border-collapse: separate;
+  border-spacing: 15px; }
+  /* line 24, scss/custom/page.scss */
+  .table-content table th {
+    background-color: #e6dfd9;
+    color: #1e1e1e;
+    border: 0; }
+  /* line 29, scss/custom/page.scss */
+  .table-content table td {
+    border: 0; }
+  /* line 32, scss/custom/page.scss */
+  .table-content table tr:nth-child(odd) td {
+    background-color: #fff; }
+  /* line 35, scss/custom/page.scss */
+  .table-content table tr:nth-child(even) td {
+    background-color: #f4f3f1; }
