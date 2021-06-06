@@ -44,6 +44,26 @@ a.download {
   &.doc:before {
     background: url(../img/footer-download2.png) center no-repeat;
   }
+  &.node:before {
+    width: 50px;
+    height: 51px;
+    background: url(../img/icon-node-download.png) center no-repeat;
+  }
+  &.node-pdf:before {
+    width: 50px;
+    height: 51px;
+    background: url(../img/icon-node-pdf.png) center no-repeat;
+  }
+  &.node-youtube:before {
+    width: 50px;
+    height: 51px;
+    background: url(../img/icon-node-youtube.png) center no-repeat;
+  }
+  &.node-spotify:before {
+    width: 50px;
+    height: 51px;
+    background: url(../img/icon-node-spotify.png) center no-repeat;
+  }
 }
 
 ul.social-icons {
