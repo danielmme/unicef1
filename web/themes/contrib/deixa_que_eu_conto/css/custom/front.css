@@ -1,30 +1,34 @@
-/* line 2, scss/custom/front.scss */
+/* line 3, scss/custom/front.scss */
+header.header {
+  margin-bottom: 180px; }
+
+/* line 7, scss/custom/front.scss */
 .gray-section {
   background-color: #f9f7f6;
   position: relative;
   padding-top: 150px;
-  padding-bottom: 15px; }
-  /* line 7, scss/custom/front.scss */
+  padding-bottom: 150px; }
+  /* line 12, scss/custom/front.scss */
   .gray-section:before, .gray-section:after {
     content: "";
     position: absolute;
     width: 100%;
     left: 0; }
-  /* line 14, scss/custom/front.scss */
+  /* line 19, scss/custom/front.scss */
   .gray-section:before {
     height: 130px;
     background: url(../../img/home-gray-section-top.png) center top no-repeat;
     top: 0; }
-  /* line 19, scss/custom/front.scss */
+  /* line 24, scss/custom/front.scss */
   .gray-section:after {
     height: 125px;
     background: url(../../img/home-gray-section-bottom.png) center top no-repeat;
     bottom: 0; }
 
-/* line 26, scss/custom/front.scss */
+/* line 31, scss/custom/front.scss */
 .busca-home {
   position: relative; }
-  /* line 28, scss/custom/front.scss */
+  /* line 33, scss/custom/front.scss */
   .busca-home .criancas {
     display: block;
     width: 300px;
@@ -36,7 +40,7 @@
     margin-left: -150px;
     top: 0;
     margin-top: -300px; }
-  /* line 40, scss/custom/front.scss */
+  /* line 45, scss/custom/front.scss */
   .busca-home .rocket {
     display: block;
     width: 300px;
@@ -48,43 +52,43 @@
     margin-right: -60px;
     top: 0;
     margin-top: -180px; }
-  /* line 52, scss/custom/front.scss */
+  /* line 57, scss/custom/front.scss */
   .busca-home .view-header h2 {
     color: #6a246d;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 70px; }
-  /* line 61, scss/custom/front.scss */
+  /* line 66, scss/custom/front.scss */
   .busca-home .view-filters form .form--inline {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-left: -15px;
     margin-right: -15px; }
-    /* line 67, scss/custom/front.scss */
+    /* line 72, scss/custom/front.scss */
     .busca-home .view-filters form .form--inline > div {
       flex: 0 0 25%;
       max-width: 25%;
       margin: 0;
       padding: 0 15px 20px; }
-      /* line 72, scss/custom/front.scss */
+      /* line 77, scss/custom/front.scss */
       .busca-home .view-filters form .form--inline > div label {
         font-weight: 700;
         font-size: 16px;
         color: #27a9e5; }
-      /* line 77, scss/custom/front.scss */
+      /* line 82, scss/custom/front.scss */
       .busca-home .view-filters form .form--inline > div input,
       .busca-home .view-filters form .form--inline > div select:not([multiple]) {
         height: 42px;
         padding: 0 10px;
         border-radius: 50px;
         border: solid 1px #27a9e5; }
-      /* line 84, scss/custom/front.scss */
+      /* line 89, scss/custom/front.scss */
       .busca-home .view-filters form .form--inline > div select[multiple] {
         border-radius: 10px;
         border: solid 1px #27a9e5; }
-      /* line 88, scss/custom/front.scss */
+      /* line 93, scss/custom/front.scss */
       .busca-home .view-filters form .form--inline > div input[type="submit"] {
         width: 100%;
         height: 44px;
@@ -95,23 +99,23 @@
         color: #ffc301;
         margin: 30px 0 0;
         display: none; }
-        /* line 98, scss/custom/front.scss */
+        /* line 103, scss/custom/front.scss */
         .busca-home .view-filters form .form--inline > div input[type="submit"].show {
           display: block; }
-      /* line 102, scss/custom/front.scss */
+      /* line 107, scss/custom/front.scss */
       .busca-home .view-filters form .form--inline > div.form-actions {
         order: 2;
         display: none; }
-  /* line 110, scss/custom/front.scss */
+  /* line 115, scss/custom/front.scss */
   .busca-home .view-content {
     display: none; }
 
-/* line 117, scss/custom/front.scss */
+/* line 122, scss/custom/front.scss */
 .home-gerais {
   padding-top: 82px;
   padding-bottom: 120px;
   position: relative; }
-  /* line 121, scss/custom/front.scss */
+  /* line 126, scss/custom/front.scss */
   .home-gerais .kite {
     display: block;
     width: 240px;
@@ -123,7 +127,7 @@
     margin-left: -60px;
     top: 0;
     margin-top: -60px; }
-  /* line 133, scss/custom/front.scss */
+  /* line 138, scss/custom/front.scss */
   .home-gerais .hero {
     display: block;
     width: 130px;
@@ -135,13 +139,13 @@
     margin-right: -60px;
     top: 0;
     margin-top: -20px; }
-  /* line 145, scss/custom/front.scss */
+  /* line 150, scss/custom/front.scss */
   .home-gerais .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 100px; }
-    /* line 150, scss/custom/front.scss */
+    /* line 155, scss/custom/front.scss */
     .home-gerais .header h2 {
       font-size: 0;
       width: 100%;
@@ -149,22 +153,22 @@
       background: url(../../img/home-title-gerais.png) center top no-repeat;
       padding: 0;
       margin: 0; }
-    /* line 158, scss/custom/front.scss */
+    /* line 163, scss/custom/front.scss */
     .home-gerais .header p {
       text-align: center;
       font-size: 16px;
       color: #666;
       flex: 0 0 70%;
       max-width: 70%; }
-  /* line 166, scss/custom/front.scss */
+  /* line 171, scss/custom/front.scss */
   .home-gerais .slick-track {
     display: flex;
     height: 100%; }
-  /* line 170, scss/custom/front.scss */
+  /* line 175, scss/custom/front.scss */
   .home-gerais .slider-item {
     float: none;
     height: auto; }
-  /* line 174, scss/custom/front.scss */
+  /* line 179, scss/custom/front.scss */
   .home-gerais .slick-arrow {
     position: absolute;
     top: 50%;
@@ -174,27 +178,27 @@
     border: 0;
     font-size: 0;
     outline: 0; }
-    /* line 183, scss/custom/front.scss */
+    /* line 188, scss/custom/front.scss */
     .home-gerais .slick-arrow.slick-prev {
       left: -35px;
       background: url(../../img/icon-arrow-left.png) center no-repeat; }
-    /* line 187, scss/custom/front.scss */
+    /* line 192, scss/custom/front.scss */
     .home-gerais .slick-arrow.slick-next {
       right: -35px;
       background: url(../../img/icon-arrow-right.png) center no-repeat; }
-  /* line 192, scss/custom/front.scss */
+  /* line 197, scss/custom/front.scss */
   .home-gerais .slider-item-inner {
     width: 100%;
     height: 100%;
     padding: 0 20px 15px; }
-    /* line 196, scss/custom/front.scss */
+    /* line 201, scss/custom/front.scss */
     .home-gerais .slider-item-inner a {
       display: flex;
       flex-direction: column;
       height: 100%;
       outline: 0;
       align-items: flex-start; }
-      /* line 206, scss/custom/front.scss */
+      /* line 211, scss/custom/front.scss */
       .home-gerais .slider-item-inner a .programa {
         margin-bottom: 20px;
         border-radius: 50px;
@@ -206,55 +210,55 @@
         padding: 5px 15px;
         font-size: 16px;
         font-weight: 700; }
-        /* line 217, scss/custom/front.scss */
+        /* line 222, scss/custom/front.scss */
         .home-gerais .slider-item-inner a .programa:before {
           content: "Programa "; }
-      /* line 221, scss/custom/front.scss */
+      /* line 226, scss/custom/front.scss */
       .home-gerais .slider-item-inner a .title {
         display: block;
         color: #23a8e0;
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px; }
-    /* line 229, scss/custom/front.scss */
+    /* line 234, scss/custom/front.scss */
     .home-gerais .slider-item-inner img {
       margin-top: auto;
       width: 100%;
       height: auto; }
 
-/* line 238, scss/custom/front.scss */
+/* line 243, scss/custom/front.scss */
 section.amazonia {
   position: relative;
-  padding-top: 380px;
+  padding-top: 300px;
   padding-bottom: 137px;
   background-color: #87b924; }
-  /* line 243, scss/custom/front.scss */
+  /* line 249, scss/custom/front.scss */
   section.amazonia:before, section.amazonia:after {
     content: "";
     position: absolute;
     width: 100%;
     left: 0; }
-  /* line 250, scss/custom/front.scss */
+  /* line 256, scss/custom/front.scss */
   section.amazonia:before {
-    height: 380px;
+    height: 300px;
     background: url(../../img/home-section-green-top.jpg) center top no-repeat;
     top: 0; }
-  /* line 255, scss/custom/front.scss */
+  /* line 262, scss/custom/front.scss */
   section.amazonia:after {
     height: 137px;
     background: url(../../img/home-section-green-bottom.jpg) center top no-repeat;
     bottom: 0; }
 
-/* line 262, scss/custom/front.scss */
+/* line 269, scss/custom/front.scss */
 .home-amazonia {
   position: relative; }
-  /* line 265, scss/custom/front.scss */
+  /* line 272, scss/custom/front.scss */
   .home-amazonia .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 100px; }
-    /* line 270, scss/custom/front.scss */
+    /* line 277, scss/custom/front.scss */
     .home-amazonia .header h2 {
       font-size: 0;
       width: 100%;
@@ -262,22 +266,22 @@ section.amazonia {
       background: url(../../img/home-title-amazonia.png) center top no-repeat;
       padding: 0;
       margin: 0; }
-    /* line 278, scss/custom/front.scss */
+    /* line 285, scss/custom/front.scss */
     .home-amazonia .header p {
       text-align: center;
       font-size: 16px;
       color: #fff;
       flex: 0 0 70%;
       max-width: 70%; }
-  /* line 286, scss/custom/front.scss */
+  /* line 293, scss/custom/front.scss */
   .home-amazonia .slick-track {
     display: flex;
     height: 100%; }
-  /* line 290, scss/custom/front.scss */
+  /* line 297, scss/custom/front.scss */
   .home-amazonia .slider-item {
     float: none;
     height: auto; }
-  /* line 294, scss/custom/front.scss */
+  /* line 301, scss/custom/front.scss */
   .home-amazonia .slick-arrow {
     position: absolute;
     top: 50%;
@@ -287,27 +291,27 @@ section.amazonia {
     border: 0;
     font-size: 0;
     outline: 0; }
-    /* line 303, scss/custom/front.scss */
+    /* line 310, scss/custom/front.scss */
     .home-amazonia .slick-arrow.slick-prev {
       left: -40px;
       background: url(../../img/icon-arrow-left-green.png) center no-repeat; }
-    /* line 307, scss/custom/front.scss */
+    /* line 314, scss/custom/front.scss */
     .home-amazonia .slick-arrow.slick-next {
       right: -40px;
       background: url(../../img/icon-arrow-right-green.png) center no-repeat; }
-  /* line 312, scss/custom/front.scss */
+  /* line 319, scss/custom/front.scss */
   .home-amazonia .slider-item-inner {
     width: 100%;
     height: 100%;
     padding: 0 20px 15px; }
-    /* line 316, scss/custom/front.scss */
+    /* line 323, scss/custom/front.scss */
     .home-amazonia .slider-item-inner a {
       display: flex;
       flex-direction: column;
       height: 100%;
       outline: 0;
       align-items: flex-start; }
-      /* line 326, scss/custom/front.scss */
+      /* line 333, scss/custom/front.scss */
       .home-amazonia .slider-item-inner a .programa {
         margin-bottom: 20px;
         border-radius: 50px;
@@ -319,30 +323,30 @@ section.amazonia {
         padding: 5px 15px;
         font-size: 16px;
         font-weight: 700; }
-        /* line 337, scss/custom/front.scss */
+        /* line 344, scss/custom/front.scss */
         .home-amazonia .slider-item-inner a .programa:before {
           content: "Programa "; }
-      /* line 341, scss/custom/front.scss */
+      /* line 348, scss/custom/front.scss */
       .home-amazonia .slider-item-inner a .title {
         display: block;
         color: #fff;
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px; }
-    /* line 349, scss/custom/front.scss */
+    /* line 356, scss/custom/front.scss */
     .home-amazonia .slider-item-inner img {
       margin-top: auto;
       width: 100%;
       height: auto; }
 
-/* line 358, scss/custom/front.scss */
+/* line 365, scss/custom/front.scss */
 section.afro {
   position: relative;
   padding-top: 90px;
   padding-bottom: 150px;
   margin-bottom: 50px;
   background-color: #fdc300; }
-  /* line 364, scss/custom/front.scss */
+  /* line 371, scss/custom/front.scss */
   section.afro .bailarina {
     display: block;
     width: 150px;
@@ -354,7 +358,7 @@ section.afro {
     margin-right: 50px;
     top: 0;
     margin-top: -20px; }
-  /* line 376, scss/custom/front.scss */
+  /* line 383, scss/custom/front.scss */
   section.afro:after {
     content: "";
     position: absolute;
@@ -364,16 +368,16 @@ section.afro {
     background: url(../../img/home-section-yellow-bottom.jpg) center bottom no-repeat;
     bottom: 0; }
 
-/* line 387, scss/custom/front.scss */
+/* line 394, scss/custom/front.scss */
 .home-afro {
   position: relative; }
-  /* line 390, scss/custom/front.scss */
+  /* line 397, scss/custom/front.scss */
   .home-afro .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 100px; }
-    /* line 395, scss/custom/front.scss */
+    /* line 402, scss/custom/front.scss */
     .home-afro .header h2 {
       font-size: 0;
       width: 100%;
@@ -381,22 +385,22 @@ section.afro {
       background: url(../../img/home-title-afro.png) center top no-repeat;
       padding: 0;
       margin: 0; }
-    /* line 403, scss/custom/front.scss */
+    /* line 410, scss/custom/front.scss */
     .home-afro .header p {
       text-align: center;
       font-size: 16px;
       color: #fff;
       flex: 0 0 70%;
       max-width: 70%; }
-  /* line 411, scss/custom/front.scss */
+  /* line 418, scss/custom/front.scss */
   .home-afro .slick-track {
     display: flex;
     height: 100%; }
-  /* line 415, scss/custom/front.scss */
+  /* line 422, scss/custom/front.scss */
   .home-afro .slider-item {
     float: none;
     height: auto; }
-  /* line 419, scss/custom/front.scss */
+  /* line 426, scss/custom/front.scss */
   .home-afro .slick-arrow {
     position: absolute;
     top: 50%;
@@ -406,27 +410,27 @@ section.afro {
     border: 0;
     font-size: 0;
     outline: 0; }
-    /* line 428, scss/custom/front.scss */
+    /* line 435, scss/custom/front.scss */
     .home-afro .slick-arrow.slick-prev {
       left: -40px;
       background: url(../../img/icon-arrow-left-yellow.png) center no-repeat; }
-    /* line 432, scss/custom/front.scss */
+    /* line 439, scss/custom/front.scss */
     .home-afro .slick-arrow.slick-next {
       right: -40px;
       background: url(../../img/icon-arrow-right-yellow.png) center no-repeat; }
-  /* line 437, scss/custom/front.scss */
+  /* line 444, scss/custom/front.scss */
   .home-afro .slider-item-inner {
     width: 100%;
     height: 100%;
     padding: 0 20px 15px; }
-    /* line 441, scss/custom/front.scss */
+    /* line 448, scss/custom/front.scss */
     .home-afro .slider-item-inner a {
       display: flex;
       flex-direction: column;
       height: 100%;
       outline: 0;
       align-items: flex-start; }
-      /* line 451, scss/custom/front.scss */
+      /* line 458, scss/custom/front.scss */
       .home-afro .slider-item-inner a .programa {
         margin-bottom: 20px;
         border-radius: 50px;
@@ -438,17 +442,17 @@ section.afro {
         padding: 5px 15px;
         font-size: 16px;
         font-weight: 700; }
-        /* line 462, scss/custom/front.scss */
+        /* line 469, scss/custom/front.scss */
         .home-afro .slider-item-inner a .programa:before {
           content: "Programa "; }
-      /* line 466, scss/custom/front.scss */
+      /* line 473, scss/custom/front.scss */
       .home-afro .slider-item-inner a .title {
         display: block;
         color: #fff;
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px; }
-    /* line 474, scss/custom/front.scss */
+    /* line 481, scss/custom/front.scss */
     .home-afro .slider-item-inner img {
       margin-top: auto;
       width: 100%;
