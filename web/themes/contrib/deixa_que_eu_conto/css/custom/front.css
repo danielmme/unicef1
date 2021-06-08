@@ -167,8 +167,10 @@ header.header {
   /* line 175, scss/custom/front.scss */
   .home-gerais .slider-item {
     float: none;
-    height: auto; }
-  /* line 179, scss/custom/front.scss */
+    height: auto;
+    width: 33.33%;
+    padding-bottom: 30px; }
+  /* line 181, scss/custom/front.scss */
   .home-gerais .slick-arrow {
     position: absolute;
     top: 50%;
@@ -178,27 +180,27 @@ header.header {
     border: 0;
     font-size: 0;
     outline: 0; }
-    /* line 188, scss/custom/front.scss */
+    /* line 190, scss/custom/front.scss */
     .home-gerais .slick-arrow.slick-prev {
       left: -35px;
       background: url(../../img/icon-arrow-left.png) center no-repeat; }
-    /* line 192, scss/custom/front.scss */
+    /* line 194, scss/custom/front.scss */
     .home-gerais .slick-arrow.slick-next {
       right: -35px;
       background: url(../../img/icon-arrow-right.png) center no-repeat; }
-  /* line 197, scss/custom/front.scss */
+  /* line 199, scss/custom/front.scss */
   .home-gerais .slider-item-inner {
     width: 100%;
     height: 100%;
     padding: 0 20px 15px; }
-    /* line 201, scss/custom/front.scss */
+    /* line 203, scss/custom/front.scss */
     .home-gerais .slider-item-inner a {
       display: flex;
       flex-direction: column;
       height: 100%;
       outline: 0;
       align-items: flex-start; }
-      /* line 211, scss/custom/front.scss */
+      /* line 213, scss/custom/front.scss */
       .home-gerais .slider-item-inner a .programa {
         margin-bottom: 20px;
         border-radius: 50px;
@@ -210,55 +212,55 @@ header.header {
         padding: 5px 15px;
         font-size: 16px;
         font-weight: 700; }
-        /* line 222, scss/custom/front.scss */
+        /* line 224, scss/custom/front.scss */
         .home-gerais .slider-item-inner a .programa:before {
           content: "Programa "; }
-      /* line 226, scss/custom/front.scss */
+      /* line 228, scss/custom/front.scss */
       .home-gerais .slider-item-inner a .title {
         display: block;
         color: #23a8e0;
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px; }
-    /* line 234, scss/custom/front.scss */
+    /* line 236, scss/custom/front.scss */
     .home-gerais .slider-item-inner img {
       margin-top: auto;
       width: 100%;
       height: auto; }
 
-/* line 243, scss/custom/front.scss */
+/* line 245, scss/custom/front.scss */
 section.amazonia {
   position: relative;
   padding-top: 300px;
   padding-bottom: 137px;
   background-color: #87b924; }
-  /* line 249, scss/custom/front.scss */
+  /* line 251, scss/custom/front.scss */
   section.amazonia:before, section.amazonia:after {
     content: "";
     position: absolute;
     width: 100%;
     left: 0; }
-  /* line 256, scss/custom/front.scss */
+  /* line 258, scss/custom/front.scss */
   section.amazonia:before {
     height: 300px;
     background: url(../../img/home-section-green-top.jpg) center top no-repeat;
     top: 0; }
-  /* line 262, scss/custom/front.scss */
+  /* line 264, scss/custom/front.scss */
   section.amazonia:after {
     height: 137px;
     background: url(../../img/home-section-green-bottom.jpg) center top no-repeat;
     bottom: 0; }
 
-/* line 269, scss/custom/front.scss */
+/* line 271, scss/custom/front.scss */
 .home-amazonia {
   position: relative; }
-  /* line 272, scss/custom/front.scss */
+  /* line 274, scss/custom/front.scss */
   .home-amazonia .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 100px; }
-    /* line 277, scss/custom/front.scss */
+    /* line 279, scss/custom/front.scss */
     .home-amazonia .header h2 {
       font-size: 0;
       width: 100%;
@@ -266,22 +268,24 @@ section.amazonia {
       background: url(../../img/home-title-amazonia.png) center top no-repeat;
       padding: 0;
       margin: 0; }
-    /* line 285, scss/custom/front.scss */
+    /* line 287, scss/custom/front.scss */
     .home-amazonia .header p {
       text-align: center;
       font-size: 16px;
       color: #fff;
       flex: 0 0 70%;
       max-width: 70%; }
-  /* line 293, scss/custom/front.scss */
+  /* line 295, scss/custom/front.scss */
   .home-amazonia .slick-track {
     display: flex;
     height: 100%; }
-  /* line 297, scss/custom/front.scss */
+  /* line 299, scss/custom/front.scss */
   .home-amazonia .slider-item {
     float: none;
-    height: auto; }
-  /* line 301, scss/custom/front.scss */
+    height: auto;
+    width: 33.33%;
+    padding-bottom: 30px; }
+  /* line 305, scss/custom/front.scss */
   .home-amazonia .slick-arrow {
     position: absolute;
     top: 50%;
@@ -291,27 +295,27 @@ section.amazonia {
     border: 0;
     font-size: 0;
     outline: 0; }
-    /* line 310, scss/custom/front.scss */
+    /* line 314, scss/custom/front.scss */
     .home-amazonia .slick-arrow.slick-prev {
       left: -40px;
       background: url(../../img/icon-arrow-left-green.png) center no-repeat; }
-    /* line 314, scss/custom/front.scss */
+    /* line 318, scss/custom/front.scss */
     .home-amazonia .slick-arrow.slick-next {
       right: -40px;
       background: url(../../img/icon-arrow-right-green.png) center no-repeat; }
-  /* line 319, scss/custom/front.scss */
+  /* line 323, scss/custom/front.scss */
   .home-amazonia .slider-item-inner {
     width: 100%;
     height: 100%;
     padding: 0 20px 15px; }
-    /* line 323, scss/custom/front.scss */
+    /* line 327, scss/custom/front.scss */
     .home-amazonia .slider-item-inner a {
       display: flex;
       flex-direction: column;
       height: 100%;
       outline: 0;
       align-items: flex-start; }
-      /* line 333, scss/custom/front.scss */
+      /* line 337, scss/custom/front.scss */
       .home-amazonia .slider-item-inner a .programa {
         margin-bottom: 20px;
         border-radius: 50px;
@@ -323,30 +327,30 @@ section.amazonia {
         padding: 5px 15px;
         font-size: 16px;
         font-weight: 700; }
-        /* line 344, scss/custom/front.scss */
+        /* line 348, scss/custom/front.scss */
         .home-amazonia .slider-item-inner a .programa:before {
           content: "Programa "; }
-      /* line 348, scss/custom/front.scss */
+      /* line 352, scss/custom/front.scss */
       .home-amazonia .slider-item-inner a .title {
         display: block;
         color: #fff;
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px; }
-    /* line 356, scss/custom/front.scss */
+    /* line 360, scss/custom/front.scss */
     .home-amazonia .slider-item-inner img {
       margin-top: auto;
       width: 100%;
       height: auto; }
 
-/* line 365, scss/custom/front.scss */
+/* line 369, scss/custom/front.scss */
 section.afro {
   position: relative;
   padding-top: 90px;
   padding-bottom: 150px;
   margin-bottom: 50px;
   background-color: #fdc300; }
-  /* line 371, scss/custom/front.scss */
+  /* line 375, scss/custom/front.scss */
   section.afro .bailarina {
     display: block;
     width: 150px;
@@ -358,7 +362,7 @@ section.afro {
     margin-right: 50px;
     top: 0;
     margin-top: -20px; }
-  /* line 383, scss/custom/front.scss */
+  /* line 387, scss/custom/front.scss */
   section.afro:after {
     content: "";
     position: absolute;
@@ -368,16 +372,16 @@ section.afro {
     background: url(../../img/home-section-yellow-bottom.jpg) center bottom no-repeat;
     bottom: 0; }
 
-/* line 394, scss/custom/front.scss */
+/* line 398, scss/custom/front.scss */
 .home-afro {
   position: relative; }
-  /* line 397, scss/custom/front.scss */
+  /* line 401, scss/custom/front.scss */
   .home-afro .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 100px; }
-    /* line 402, scss/custom/front.scss */
+    /* line 406, scss/custom/front.scss */
     .home-afro .header h2 {
       font-size: 0;
       width: 100%;
@@ -385,22 +389,24 @@ section.afro {
       background: url(../../img/home-title-afro.png) center top no-repeat;
       padding: 0;
       margin: 0; }
-    /* line 410, scss/custom/front.scss */
+    /* line 414, scss/custom/front.scss */
     .home-afro .header p {
       text-align: center;
       font-size: 16px;
       color: #fff;
       flex: 0 0 70%;
       max-width: 70%; }
-  /* line 418, scss/custom/front.scss */
+  /* line 422, scss/custom/front.scss */
   .home-afro .slick-track {
     display: flex;
     height: 100%; }
-  /* line 422, scss/custom/front.scss */
+  /* line 426, scss/custom/front.scss */
   .home-afro .slider-item {
     float: none;
-    height: auto; }
-  /* line 426, scss/custom/front.scss */
+    height: auto;
+    width: 33.33%;
+    padding-bottom: 30px; }
+  /* line 432, scss/custom/front.scss */
   .home-afro .slick-arrow {
     position: absolute;
     top: 50%;
@@ -410,27 +416,27 @@ section.afro {
     border: 0;
     font-size: 0;
     outline: 0; }
-    /* line 435, scss/custom/front.scss */
+    /* line 441, scss/custom/front.scss */
     .home-afro .slick-arrow.slick-prev {
       left: -40px;
       background: url(../../img/icon-arrow-left-yellow.png) center no-repeat; }
-    /* line 439, scss/custom/front.scss */
+    /* line 445, scss/custom/front.scss */
     .home-afro .slick-arrow.slick-next {
       right: -40px;
       background: url(../../img/icon-arrow-right-yellow.png) center no-repeat; }
-  /* line 444, scss/custom/front.scss */
+  /* line 450, scss/custom/front.scss */
   .home-afro .slider-item-inner {
     width: 100%;
     height: 100%;
     padding: 0 20px 15px; }
-    /* line 448, scss/custom/front.scss */
+    /* line 454, scss/custom/front.scss */
     .home-afro .slider-item-inner a {
       display: flex;
       flex-direction: column;
       height: 100%;
       outline: 0;
       align-items: flex-start; }
-      /* line 458, scss/custom/front.scss */
+      /* line 464, scss/custom/front.scss */
       .home-afro .slider-item-inner a .programa {
         margin-bottom: 20px;
         border-radius: 50px;
@@ -442,17 +448,17 @@ section.afro {
         padding: 5px 15px;
         font-size: 16px;
         font-weight: 700; }
-        /* line 469, scss/custom/front.scss */
+        /* line 475, scss/custom/front.scss */
         .home-afro .slider-item-inner a .programa:before {
           content: "Programa "; }
-      /* line 473, scss/custom/front.scss */
+      /* line 479, scss/custom/front.scss */
       .home-afro .slider-item-inner a .title {
         display: block;
         color: #fff;
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px; }
-    /* line 481, scss/custom/front.scss */
+    /* line 487, scss/custom/front.scss */
     .home-afro .slider-item-inner img {
       margin-top: auto;
       width: 100%;
