@@ -6,6 +6,7 @@ global-styling:
       css/custom/footer.css: {}
       css/custom/page.css: {}
   js:
+    js/main.js: { scope: "footer" }
     js/front.js: { scope: "footer" }
   dependencies:
     - deixa_que_eu_conto/slick
