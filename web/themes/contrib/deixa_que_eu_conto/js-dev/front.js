@@ -1,4 +1,4 @@
-(function(){
+(function(window, document, $){
   console.log('front');
 
     var $inputBtn = $('.form-actions input[type="submit"]').clone()
@@ -119,4 +119,4 @@
 
     // scroll animations
     AOS.init();
-})();
+  })(window, document, jQuery);

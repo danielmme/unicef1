@@ -1,4 +1,4 @@
-(function(){
+(function(window, document, $){
   console.log('main');
   // select
   var $selectFakeContainer = document.createElement('div');
@@ -21,4 +21,4 @@
     $(this).addClass('checked')
     $('.form-item-tipo-de-atividades select option[value="'+thisValue+'"]').attr('selected',true)
   })
-})();
+})(window, document, jQuery);
