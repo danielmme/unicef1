@@ -1,7 +1,7 @@
 (function(window, document, $){
   console.log('front');
 
-    var $inputBtn = $('.form-actions input[type="submit"]').clone()
+    var $inputBtn = $('.path-frontpage .form-actions input[type="submit"]').clone()
 
     // console.log($inputBtn);
     $($inputBtn).addClass('show');
