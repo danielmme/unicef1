@@ -13,7 +13,7 @@
       $('.home-gerais .slider-item-inner').each(function(){
         var title = $(this).attr('data-title');
 
-        var number = title.match(/\d/gm).join().replace(',','')
+        var number = title.match(/\d/gm).join('')
         $(this).children('a').children('.programa').html(number);
         $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
       })
@@ -48,7 +48,7 @@
       $('.home-amazonia .slider-item-inner').each(function(){
         var title = $(this).attr('data-title');
 
-        var number = title.match(/\d/gm).join().replace(',','')
+        var number = title.match(/\d/gm).join('')
         $(this).children('a').children('.programa').html(number);
         $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
       })
@@ -84,7 +84,8 @@
       $('.home-afro .slider-item-inner').each(function(){
         var title = $(this).attr('data-title');
 
-        var number = title.match(/\d/gm).join().replace(',','')
+        var number = title.match(/\d/gm).join('')
+        console.log(number);
         $(this).children('a').children('.programa').html(number);
         $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
       })
