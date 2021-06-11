@@ -53,7 +53,7 @@
         $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
       })
 
-      $('.home-gerais .programas_amazonia .view-content').slick({
+      $('.home-gerais .programas-amazonia .view-content').slick({
         dots: false,
         arrows: true,
         infinite: true,
