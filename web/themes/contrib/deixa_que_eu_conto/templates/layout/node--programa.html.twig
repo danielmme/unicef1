@@ -140,15 +140,26 @@
             {{content.field_video.0}}
           </div>
         </div>
+
         <div class="col-12">
           <div class="row pt-5">
             <div class="col-12 col-lg-6 pb-5 text-align-center">
               <h3 class="titles">Direitos de Aprendizagem</h3>
-              {{content.field_direito_de_aprendizagem.0['#title']}}
+                 {% for obj in content.field_direito_de_aprendizagem %}
+                 {% if obj['#title'] is not empty %}
+                  {{obj['#title']}}
+                  {% if not loop.last %},{% endif %}
+                 {% endif %}
+                 {% endfor %}
             </div>
             <div class="col-12 col-lg-6 pb-5 text-align-center">
               <h3 class="titles">Campos de Experiência</h3>
-              {{content.field_campos_de_experiencia.0['#title']}}
+              {% for obj in content.field_campos_de_experiencia %}
+               {% if obj['#title'] is not empty %}
+                  {{obj['#title']}}
+                  {% if not loop.last %},{% endif %}
+                {% endif %}
+              {% endfor %}
               </div>
           </div>
         </div>
