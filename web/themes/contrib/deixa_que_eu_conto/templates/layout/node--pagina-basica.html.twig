@@ -19,7 +19,9 @@
             </div>
         </div>
         <div class="col-12 table-content">
-        {{content.body.0}}
+           {% for obj in content.body %}
+                {{obj}}
+           {% endfor %}
         </div>
     </div>
 </div>
