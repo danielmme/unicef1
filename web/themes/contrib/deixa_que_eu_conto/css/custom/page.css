@@ -9,35 +9,45 @@
   margin-bottom: 60px; }
 
 /* line 11, scss/custom/page.scss */
+.page-header-basico {
+  background: #6c246e;
+  color: #f9c400;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 10px 120px;
+  border-radius: 50px;
+  margin-bottom: 60px; }
+
+/* line 21, scss/custom/page.scss */
 .titles {
   color: #029fe6;
   font-weight: 700;
   font-size: 18px; }
 
-/* line 18, scss/custom/page.scss */
+/* line 28, scss/custom/page.scss */
 .table-content caption {
   display: none; }
 
-/* line 21, scss/custom/page.scss */
+/* line 31, scss/custom/page.scss */
 .table-content table {
   border-collapse: separate;
   border-spacing: 15px; }
-  /* line 24, scss/custom/page.scss */
+  /* line 34, scss/custom/page.scss */
   .table-content table th {
     background-color: #e6dfd9;
     color: #1e1e1e;
     border: 0; }
-  /* line 29, scss/custom/page.scss */
+  /* line 39, scss/custom/page.scss */
   .table-content table td {
     border: 0; }
-  /* line 32, scss/custom/page.scss */
+  /* line 42, scss/custom/page.scss */
   .table-content table tr:nth-child(odd) td {
     background-color: #fff; }
-  /* line 35, scss/custom/page.scss */
+  /* line 45, scss/custom/page.scss */
   .table-content table tr:nth-child(even) td {
     background-color: #f4f3f1; }
 
-/* line 42, scss/custom/page.scss */
+/* line 52, scss/custom/page.scss */
 .busca-home .criancas {
   display: block;
   width: 300px;
@@ -50,7 +60,7 @@
   top: 0;
   margin-top: -300px; }
 
-/* line 54, scss/custom/page.scss */
+/* line 64, scss/custom/page.scss */
 .busca-home .rocket {
   display: block;
   width: 300px;
@@ -63,47 +73,47 @@
   top: 0;
   margin-top: -180px; }
 
-/* line 67, scss/custom/page.scss */
+/* line 77, scss/custom/page.scss */
 .view-busca {
   position: relative; }
-  /* line 70, scss/custom/page.scss */
+  /* line 80, scss/custom/page.scss */
   .view-busca .view-header h2 {
     color: #6a246d;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 70px; }
-  /* line 79, scss/custom/page.scss */
+  /* line 89, scss/custom/page.scss */
   .view-busca .view-filters form .form--inline {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-left: -15px;
     margin-right: -15px; }
-    /* line 85, scss/custom/page.scss */
+    /* line 95, scss/custom/page.scss */
     .view-busca .view-filters form .form--inline > div {
       flex: 0 0 25%;
       max-width: 25%;
       margin: 0;
       padding: 0 15px 20px; }
-      /* line 90, scss/custom/page.scss */
+      /* line 100, scss/custom/page.scss */
       .view-busca .view-filters form .form--inline > div.form-item-tipo-de-atividades {
         flex: 0 0 75%;
         max-width: 75%; }
-        /* line 93, scss/custom/page.scss */
+        /* line 103, scss/custom/page.scss */
         .view-busca .view-filters form .form--inline > div.form-item-tipo-de-atividades select {
           display: flex;
           display: none; }
-          /* line 96, scss/custom/page.scss */
+          /* line 106, scss/custom/page.scss */
           .view-busca .view-filters form .form--inline > div.form-item-tipo-de-atividades select option {
             flex: 0 0 33.33%;
             max-width: 33.33%; }
-      /* line 102, scss/custom/page.scss */
+      /* line 112, scss/custom/page.scss */
       .view-busca .view-filters form .form--inline > div label {
         font-weight: 700;
         font-size: 16px;
         color: #27a9e5; }
-      /* line 107, scss/custom/page.scss */
+      /* line 117, scss/custom/page.scss */
       .view-busca .view-filters form .form--inline > div input,
       .view-busca .view-filters form .form--inline > div select:not([multiple]) {
         height: 42px;
@@ -115,11 +125,11 @@
         font-weight: 700;
         outline: 0;
         outline: 0 !important; }
-        /* line 118, scss/custom/page.scss */
+        /* line 128, scss/custom/page.scss */
         .view-busca .view-filters form .form--inline > div input:focus,
         .view-busca .view-filters form .form--inline > div select:not([multiple]):focus {
           outline: 0 !important; }
-        /* line 121, scss/custom/page.scss */
+        /* line 131, scss/custom/page.scss */
         .view-busca .view-filters form .form--inline > div input option,
         .view-busca .view-filters form .form--inline > div select:not([multiple]) option {
           max-width: 100%;
@@ -129,7 +139,7 @@
           font-weight: 700;
           color: #68256c;
           margin-bottom: 15px; }
-      /* line 131, scss/custom/page.scss */
+      /* line 141, scss/custom/page.scss */
       .view-busca .view-filters form .form--inline > div select[multiple] {
         outline: 0;
         border: 0;
@@ -137,11 +147,11 @@
         overflow: visible;
         outline: 0 !important;
         box-shadow: none; }
-        /* line 140, scss/custom/page.scss */
+        /* line 150, scss/custom/page.scss */
         .view-busca .view-filters form .form--inline > div select[multiple]:focus {
           outline: 0 !important;
           box-shadow: none; }
-        /* line 144, scss/custom/page.scss */
+        /* line 154, scss/custom/page.scss */
         .view-busca .view-filters form .form--inline > div select[multiple] option {
           position: relative;
           max-width: 100%;
@@ -152,7 +162,7 @@
           color: #3b3a38;
           margin-bottom: 15px;
           padding-left: 20px; }
-          /* line 154, scss/custom/page.scss */
+          /* line 164, scss/custom/page.scss */
           .view-busca .view-filters form .form--inline > div select[multiple] option:before {
             content: "";
             position: absolute;
@@ -165,7 +175,7 @@
             height: 13px;
             border-radius: 50%;
             border: solid 1px #27a9e5; }
-          /* line 167, scss/custom/page.scss */
+          /* line 177, scss/custom/page.scss */
           .view-busca .view-filters form .form--inline > div select[multiple] option:after {
             content: "";
             position: absolute;
@@ -178,19 +188,19 @@
             height: 9px;
             border-radius: 50%;
             border: 0; }
-          /* line 181, scss/custom/page.scss */
+          /* line 191, scss/custom/page.scss */
           .view-busca .view-filters form .form--inline > div select[multiple] option:checked {
             background-color: transparent !important;
             outline: 0; }
-            /* line 184, scss/custom/page.scss */
+            /* line 194, scss/custom/page.scss */
             .view-busca .view-filters form .form--inline > div select[multiple] option:checked:after {
               background-color: #68256c; }
-      /* line 190, scss/custom/page.scss */
+      /* line 200, scss/custom/page.scss */
       .view-busca .view-filters form .form--inline > div .select-fake-container {
         display: flex;
         flex-wrap: wrap;
         gap: 5; }
-        /* line 194, scss/custom/page.scss */
+        /* line 204, scss/custom/page.scss */
         .view-busca .view-filters form .form--inline > div .select-fake-container div {
           flex: 0 0 33.33%;
           max-width: 33.33%;
@@ -205,7 +215,7 @@
           cursor: pointer;
           display: flex;
           align-items: center; }
-          /* line 208, scss/custom/page.scss */
+          /* line 218, scss/custom/page.scss */
           .view-busca .view-filters form .form--inline > div .select-fake-container div:before {
             content: "";
             position: absolute;
@@ -218,7 +228,7 @@
             height: 13px;
             border-radius: 50%;
             border: solid 1px #27a9e5; }
-          /* line 221, scss/custom/page.scss */
+          /* line 231, scss/custom/page.scss */
           .view-busca .view-filters form .form--inline > div .select-fake-container div:after {
             content: "";
             position: absolute;
@@ -231,14 +241,14 @@
             height: 9px;
             border-radius: 50%;
             border: 0; }
-          /* line 235, scss/custom/page.scss */
+          /* line 245, scss/custom/page.scss */
           .view-busca .view-filters form .form--inline > div .select-fake-container div.checked {
             background-color: transparent !important;
             outline: 0; }
-            /* line 238, scss/custom/page.scss */
+            /* line 248, scss/custom/page.scss */
             .view-busca .view-filters form .form--inline > div .select-fake-container div.checked:after {
               background-color: #68256c; }
-      /* line 244, scss/custom/page.scss */
+      /* line 254, scss/custom/page.scss */
       .view-busca .view-filters form .form--inline > div input[type="submit"] {
         width: 100%;
         height: 44px;
@@ -249,38 +259,38 @@
         color: #ffc301;
         margin: 30px 0 0;
         display: none; }
-        /* line 254, scss/custom/page.scss */
+        /* line 264, scss/custom/page.scss */
         .view-busca .view-filters form .form--inline > div input[type="submit"].show {
           display: block; }
-      /* line 258, scss/custom/page.scss */
+      /* line 268, scss/custom/page.scss */
       .view-busca .view-filters form .form--inline > div.form-actions {
         order: 2;
         display: none; }
 
-/* line 271, scss/custom/page.scss */
+/* line 281, scss/custom/page.scss */
 .path-frontpage .view-busca .view-content {
   display: none; }
 
-/* line 275, scss/custom/page.scss */
+/* line 285, scss/custom/page.scss */
 .webform-submission-conta-pra-gente-form {
   display: flex;
   flex-wrap: wrap;
   gap: 30px; }
-  /* line 279, scss/custom/page.scss */
+  /* line 289, scss/custom/page.scss */
   .webform-submission-conta-pra-gente-form #edit-flexbox-col-left,
   .webform-submission-conta-pra-gente-form #edit-flexbox-col-right {
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 50%;
     max-width: 50%; }
-    /* line 285, scss/custom/page.scss */
+    /* line 295, scss/custom/page.scss */
     .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div,
     .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div {
       flex: 0 0 100%;
       max-width: 100%;
       padding-bottom: 30px;
       font-family: "Roboto", sans-serif; }
-      /* line 290, scss/custom/page.scss */
+      /* line 300, scss/custom/page.scss */
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div label,
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div legend,
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div label,
@@ -288,7 +298,7 @@
         font-size: 20px;
         font-weight: 700;
         color: #68256c; }
-      /* line 296, scss/custom/page.scss */
+      /* line 306, scss/custom/page.scss */
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div input[type="text"],
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div input[type="email"],
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div textarea,
@@ -302,25 +312,25 @@
         border-radius: 50px;
         height: 35px;
         padding: 2px 10px; }
-      /* line 307, scss/custom/page.scss */
+      /* line 317, scss/custom/page.scss */
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div textarea,
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div textarea {
         height: 165px;
         border-radius: 20px; }
-      /* line 311, scss/custom/page.scss */
+      /* line 321, scss/custom/page.scss */
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox,
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox {
         margin-bottom: 20px; }
-        /* line 313, scss/custom/page.scss */
+        /* line 323, scss/custom/page.scss */
         .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"],
         .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"] {
           display: none; }
-          /* line 315, scss/custom/page.scss */
+          /* line 325, scss/custom/page.scss */
           .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"] + label,
           .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"] + label {
             position: relative;
             padding-left: 40px; }
-            /* line 318, scss/custom/page.scss */
+            /* line 328, scss/custom/page.scss */
             .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"] + label:before,
             .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"] + label:before {
               content: "";
@@ -334,7 +344,7 @@
               height: 35px;
               border-radius: 50%;
               border: solid 1px #27a9e5; }
-            /* line 331, scss/custom/page.scss */
+            /* line 341, scss/custom/page.scss */
             .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"] + label:after,
             .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"] + label:after {
               content: "";
@@ -348,20 +358,20 @@
               height: 25px;
               border-radius: 50%;
               border: 0; }
-          /* line 347, scss/custom/page.scss */
+          /* line 357, scss/custom/page.scss */
           .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"]:checked + label:after,
           .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"]:checked + label:after {
             background-color: #68256c; }
-      /* line 354, scss/custom/page.scss */
+      /* line 364, scss/custom/page.scss */
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .js-form-type-managed-file .js-form-managed-file,
       .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .js-form-type-managed-file .js-form-managed-file {
         position: relative;
         padding-bottom: 20px; }
-        /* line 357, scss/custom/page.scss */
+        /* line 367, scss/custom/page.scss */
         .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .js-form-type-managed-file .js-form-managed-file input[type="file"],
         .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .js-form-type-managed-file .js-form-managed-file input[type="file"] {
           visibility: hidden; }
-        /* line 360, scss/custom/page.scss */
+        /* line 370, scss/custom/page.scss */
         .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .js-form-type-managed-file .js-form-managed-file:before,
         .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .js-form-type-managed-file .js-form-managed-file:before {
           content: "Anexar os arquivos";
@@ -376,10 +386,10 @@
           font-weight: 500;
           color: #fff;
           border-radius: 50px; }
-  /* line 378, scss/custom/page.scss */
+  /* line 388, scss/custom/page.scss */
   .webform-submission-conta-pra-gente-form .form-actions {
     margin: 0; }
-    /* line 380, scss/custom/page.scss */
+    /* line 390, scss/custom/page.scss */
     .webform-submission-conta-pra-gente-form .form-actions input[type="submit"] {
       border-radius: 50px;
       background-color: #6c246e;
@@ -390,12 +400,12 @@
       border: 0;
       margin: 0; }
 
-/* line 393, scss/custom/page.scss */
+/* line 403, scss/custom/page.scss */
 .block-page-title-block {
   display: flex;
   align-items: center;
   justify-content: center; }
-  /* line 397, scss/custom/page.scss */
+  /* line 407, scss/custom/page.scss */
   .block-page-title-block h1 {
     border-radius: 50px;
     background-color: #6c246e;
@@ -406,10 +416,10 @@
     padding: 28px 50px;
     margin-bottom: 45px; }
 
-/* line 411, scss/custom/page.scss */
+/* line 421, scss/custom/page.scss */
 .node-programa-infos .comma-element:after {
   content: ", "; }
 
-/* line 415, scss/custom/page.scss */
+/* line 425, scss/custom/page.scss */
 .node-programa-infos .comma-element:last-of-type:after {
   content: ""; }
