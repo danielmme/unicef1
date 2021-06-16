@@ -164,7 +164,7 @@
           font-size: 14px;
           font-weight: 400;
           color: #3b3a38;
-          margin-bottom: 15px;
+          margin-bottom: 5px;
           padding-left: 20px; }
           /* line 168, scss/custom/page.scss */
           .view-busca .view-filters form .form--inline > div select[multiple] option:before {
@@ -214,7 +214,7 @@
           font-size: 14px;
           font-weight: 400;
           color: #3b3a38;
-          margin-bottom: 15px;
+          margin-bottom: 5px;
           padding-left: 20px;
           cursor: pointer;
           display: flex;
