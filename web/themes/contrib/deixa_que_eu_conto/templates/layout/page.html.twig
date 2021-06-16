@@ -222,11 +222,16 @@ set footer_classes = ' ' ~
         </ul>
       </div> #}
       <div class="col-12 col-lg-4 text-align-center">
+      //Pegar URL da página
+      <?php
+      $Url = (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://";
+      $Url .= $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"];
+      ?>
         <a href="https://secure.unicef.org.br/Default.aspx?ca=site-brasil-home&origem=brasil"><img src="/themes/contrib/deixa_que_eu_conto/img/btn-doe-agora.png" alt="Doe Agora" class="img-fluid pb-5"></a>
         <ul class="social-icons only-icons" id="only-icons">
           <li class="icon-whatsapp"><a href="whatsapp.com"><span>whatsapp</span></a></li>
           <li class="icon-instagram"><a href="https://www.instagram.com/unicefbrasil"><span>instagram</span></a></li>
-          <li class="icon-facebook"><a href="https://www.facebook.com/unicefbrasil"><span>facebook</span></a></li>
+          <li class="icon-facebook"><a href="http://www.facebook.com/sharer.php?u=<?php echo $Url; ?>" target="_blank"><span>facebook</span></a></li>
           <li class="icon-twitter"><a href="twitter.com"><span>twitter</span></a></li>
           <li class="icon-linkedin"><a href="https://pt.linkedin.com/company/unicef-brazil"><span>linkedin</span></a></li>
         </ul>
