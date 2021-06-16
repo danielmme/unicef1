@@ -66,14 +66,27 @@ a.download {
   }
 }
 
+#social-icons-upper {
+  padding-right: 45px;
+  padding-left: 60px;
+  justify-content: space-between;
+}
+
+#footer-middle-column {
+  padding-left: 70px;
+}
+#only-icons {
+  padding-left: 37px;
+}
+
 ul.social-icons {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  flex: 0 0 100%;
+  // flex: 0 0 100%;
   max-width: 100%;
-  justify-content: space-between;
+  // justify-content: space-between;
   li {
     display: flex;
     font-size: 18px;
@@ -102,7 +115,7 @@ ul.social-icons {
     }
     &.icon-twitter {
       &:after {
-        background: url(../img/icon-social-facebook.png) center no-repeat;
+        background: url(../img/icon-social-twitter.png) center no-repeat;
       }
     }
     &.icon-instagram {
