@@ -4,3 +4,8 @@
  * @file
  * deixa_que_eu_conto theme file.
  */
+
+
+function deixa_que_eu_conto_preprocess_page(&$variables) {
+    $variables['url'] = $GLOBALS['base_url'];
+  }

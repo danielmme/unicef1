@@ -221,12 +221,13 @@ set footer_classes = ' ' ~
           <li><a href="#"><span>Conteúdos Afro-brasileiros</span></a></li>
         </ul>
       </div> #}
+      {% set base_url = render_var(url('<front>'))  %}
       <div class="col-12 col-lg-4 text-align-center">
         <a href="https://secure.unicef.org.br/Default.aspx?ca=site-brasil-home&origem=brasil"><img src="/themes/contrib/deixa_que_eu_conto/img/btn-doe-agora.png" alt="Doe Agora" class="img-fluid pb-5"></a>
         <ul class="social-icons only-icons" id="only-icons">
           <li class="icon-whatsapp"><a href="whatsapp.com"><span>whatsapp</span></a></li>
           <li class="icon-instagram"><a href="https://www.instagram.com/unicefbrasil"><span>instagram</span></a></li>
-          <li class="icon-facebook"><a href="https://www.facebook.com/sharer.php?u="{{url('<current>')}}""><span>facebook</span></a></li>
+          <li class="icon-facebook"><a href="https://www.facebook.com/sharer.php?u={{ base_url }}"><span>facebook</span></a></li>
           <li class="icon-twitter"><a href="twitter.com"><span>twitter</span></a></li>
           <li class="icon-linkedin"><a href="https://pt.linkedin.com/company/unicef-brazil"><span>linkedin</span></a></li>
         </ul>
