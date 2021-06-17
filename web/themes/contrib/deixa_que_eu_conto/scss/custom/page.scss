@@ -104,9 +104,29 @@
   margin: 30px 0 0;
 }
 
-// .first-filter-block {
-//   border-bottom: 1px solid rgb(226, 212, 212) transparent;
-// }
+.form-control {
+  border-radius: 0.95em;
+  }
+  
+  .label-busca-submit {
+  width: 40%;
+  height: 38px;
+  border-radius: 0.95em;
+  margin: 14px 0 0 0;
+  }
+  
+  @media (min-width: 992px)
+   .col-lg-3 {
+  padding: 0px 0px 65px 0px;
+  }
+  
+  label {
+  margin-bottom: 0.3rem;
+  }
+  
+  .label-busca {
+  margin-bottom: 30px;
+  }
 
 .view-busca {
   position: relative;
