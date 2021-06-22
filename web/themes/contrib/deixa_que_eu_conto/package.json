@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run watch",
-    "build": "npm run scss-build && npm run slick && npm run aos && npm run webpack",
+    "build": "npm run scss-build && npm run slick && npm run aos && npm run js",
     "scss-watch": "node-sass ./scss -o ./css --source-comments -w",
     "scss-build-dev": "node-sass ./scss -o ./css",
     "scss-build": "node-sass ./scss -o ./css --output-style compressed",
