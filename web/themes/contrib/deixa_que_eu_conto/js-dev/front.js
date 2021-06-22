@@ -11,11 +11,11 @@
     if($('.home-gerais').length){
       console.log('has home gerais');
       $('.home-gerais .slider-item-inner').each(function(){
-        var title = $(this).attr('data-title');
+        // var title = $(this).attr('data-title');
 
-        var number = title.match(/\d/gm).join('')
-        $(this).children('a').children('.programa').html(number);
-        $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
+        // var number = title.match(/\d/gm).join('')
+        // $(this).children('a').children('.programa').html(number);
+        // $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
       })
 
       $('.home-gerais .programas-gerais .view-content').slick({
@@ -46,11 +46,11 @@
     if($('.home-amazonia').length){
       console.log('has home amazonia');
       $('.home-amazonia .slider-item-inner').each(function(){
-        var title = $(this).attr('data-title');
+        // var title = $(this).attr('data-title');
 
-        var number = title.match(/\d/gm).join('')
-        $(this).children('a').children('.programa').html(number);
-        $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
+        // var number = title.match(/\d/gm).join('')
+        // $(this).children('a').children('.programa').html(number);
+        // $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
       })
 
       $('.home-amazonia .programas-amazonia .view-content').slick({
@@ -82,12 +82,12 @@
     if($('.home-afro').length){
       console.log('has home afro');
       $('.home-afro .slider-item-inner').each(function(){
-        var title = $(this).attr('data-title');
+        // var title = $(this).attr('data-title');
 
-        var number = title.match(/\d/gm).join('')
-        console.log(number);
-        $(this).children('a').children('.programa').html(number);
-        $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
+        // var number = title.match(/\d/gm).join('')
+        // console.log(number);
+        // $(this).children('a').children('.programa').html(number);
+        // $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
       })
 
       $('.home-afro .programas-afro .view-content').slick({
@@ -114,9 +114,6 @@
       });
 
     }
-
-
-
 
     // scroll animations
     AOS.init();

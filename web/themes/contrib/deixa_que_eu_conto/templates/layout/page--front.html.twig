@@ -6,16 +6,12 @@
 {% block page_main %}
   {% block page_main_content %}
     <section class="gray-section ">
-      <div class="container-xl busca-home">
+      <div class="container-lg busca-home">
         <span class="criancas" data-aos="fade-up" data-aos-delay="400"
             data-aos-duration="1000"></span>
         <span class="rocket" data-aos="fade-up-right" data-aos-delay="1000"
             data-aos-duration="1200"></span>
-        <div class="row">
-          <div class="col-xl-12">
-            {{drupal_view('busca','page_1')}}
-          </div>
-        </div>
+      {{ drupal_entity('block', 'buscahome') }}
       </div>
     </section>
     <section class="gerais">
@@ -58,7 +54,7 @@
           <div class="col-xl-12 header">
             <h2>Afro-Brasileiro</h2>
             <p>
-São os 50 programas realizados pelas contadoras: Vovó Cici de Oxalá, Kemla Baptista, Mafuane Oliveira, Samara Rosa, Suane Brazão e pelo contador: Ivamar dos Santo que trazem histórias de resgate e empoderamento indentitário do povo preto.</p>
+São os 42 programas realizados pelas contadoras: Vovó Cici de Oxalá, Kemla Baptista, Mafuane Oliveira, Samara Rosa, Suane Brazão e pelo contador: Ivamar dos Santo que trazem histórias de resgate e empoderamento indentitário do povo preto.</p>
           </div>
           <div class="col-xl-12">
             {{drupal_view('programas','afro_brasileiro')}}

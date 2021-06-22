@@ -1,0 +1,25 @@
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+{{ attach_library('classy/node') }}
+<article{{ attributes.addClass(classes) }}>
+
+<div v class="container">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <div class="page-header-basico">
+                {{ label }}
+            </div>
+        </div>
+        <div class="col-12 table-content">
+          {{content.body}}
+        </div>
+    </div>
+</div>
