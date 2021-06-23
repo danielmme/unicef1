@@ -1,3 +1,4 @@
+@import "../mixins";
 .page-header {
   background: #6c246e;
   color: #f9c400;
@@ -64,6 +65,9 @@
     margin-left: -150px;
     top: 0;
     margin-top: -300px;
+    @include mqrange(0, 880px) {
+      margin-top: -100px;
+    }
   }
   .rocket {
     display: block;
@@ -114,25 +118,24 @@
   margin-bottom: 15px;
 }
 
-
 .form-control {
   border-radius: 0.95em;
-  }
-  
-  .label-busca-submit {
+}
+
+.label-busca-submit {
   width: 40%;
   height: 38px;
   border-radius: 0.95em;
   margin: 14px 0 0 0;
-  }
-    
-  // label {
-  // margin-bottom: 0.3rem;
-  // }
-  
-  .label-busca {
+}
+
+// label {
+// margin-bottom: 0.3rem;
+// }
+
+.label-busca {
   margin-bottom: 30px;
-  }
+}
 
 .view-busca {
   position: relative;

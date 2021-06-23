@@ -1,3 +1,5 @@
+@import "../mixins";
+
 header.header {
   min-height: 645px;
   background: url(../../img/header-bg.png) center bottom no-repeat;
@@ -6,6 +8,40 @@ header.header {
   position: relative;
   // &:before,
   // &:after {
+  @include mqrange(0, 880px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px 1fr;
+    gap: 30px;
+    grid-template-areas:
+      ". logo logo ."
+      ". unicef idade .";
+    .region-header {
+      grid-area: logo;
+      & > div[class*="branding"] .navbar-brand a {
+        margin-bottom: 0 !important;
+      }
+    }
+    .unicef {
+      grid-area: unicef;
+      margin: 0 !important;
+      left: 0 !important;
+    }
+    .faixa-etaria {
+      grid-area: idade;
+      margin: 0 !important;
+      right: 0 !important;
+    }
+  }
+  @include mqrange(0, 650px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 500px 1fr;
+    gap: 30px;
+    grid-template-areas:
+      ". logo logo . "
+      " . unicef idade . ";
+  }
   .unicef,
   .faixa-etaria {
     content: "";

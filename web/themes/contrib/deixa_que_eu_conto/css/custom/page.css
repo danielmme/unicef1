@@ -1,1 +1,480 @@
-.page-header{background:#6c246e;color:#f9c400;font-weight:700;font-size:32px;padding:25px 50px;border-radius:50px;margin-bottom:60px}.page-header-basico{background:#6c246e;color:#f9c400;font-weight:700;font-size:28px;padding:10px 120px;border-radius:50px;margin-bottom:60px}.resultado-busca{padding-bottom:10px}.titles{color:#029fe6;font-weight:700;font-size:18px}.table-content caption{display:none}.table-content table{border-collapse:separate;border-spacing:15px}.table-content table th{background-color:#e6dfd9;color:#1e1e1e;border:0}.table-content table td{border:0}.table-content table tr:nth-child(odd) td{background-color:#fff}.table-content table tr:nth-child(even) td{background-color:#f4f3f1}.busca-home .criancas{display:block;width:300px;height:300px;background:url(../../img/criancas.png) center no-repeat;background-size:contain;position:absolute;left:50%;margin-left:-150px;top:0;margin-top:-300px}.busca-home .rocket{display:block;width:300px;height:300px;background:url(../../img/rocket.png) center no-repeat;background-size:contain;position:absolute;right:0;margin-right:-60px;top:0;margin-top:-180px}.label-busca{color:#6a246d;font-size:40px;font-weight:700;text-transform:uppercase;margin-bottom:70px}.label-filters{font-weight:700;font-size:16px;color:#27a9e5}.navbar-brand{padding-top:8.313rem}.label-busca-submit{width:100%;max-height:44px;height:100%;border:0;background-color:#6a246d;font-size:16px;font-weight:500;color:#ffc301;margin:30px 0 0}.first-filter-block{border-bottom-style:thin;border-bottom:1px solid #d4cfcf;margin-bottom:15px}.form-control{border-radius:0.95em}.label-busca-submit{width:40%;height:38px;border-radius:0.95em;margin:14px 0 0 0}.label-busca{margin-bottom:30px}.view-busca{position:relative}.view-busca .view-filters form .form--inline{display:flex;flex-wrap:wrap;justify-content:flex-end;margin-left:-15px;margin-right:-15px}.view-busca .view-filters form .form--inline>div{flex:0 0 25%;max-width:25%;margin:0;padding:0 15px 20px}.view-busca .view-filters form .form--inline>div.form-item-tipo-de-atividades{flex:0 0 75%;max-width:75%}.view-busca .view-filters form .form--inline>div.form-item-tipo-de-atividades select{display:flex;display:none}.view-busca .view-filters form .form--inline>div.form-item-tipo-de-atividades select option{flex:0 0 33.33%;max-width:33.33%}.view-busca .view-filters form .form--inline>div label{font-weight:700;font-size:16px;color:#27a9e5}.view-busca .view-filters form .form--inline>div input,.view-busca .view-filters form .form--inline>div select:not([multiple]){height:42px;padding:0 10px;border-radius:50px;border:solid 1px #27a9e5;font-size:Roboto, sans-serif;font-size:18px;font-weight:700;outline:0;outline:0 !important}.view-busca .view-filters form .form--inline>div input:focus,.view-busca .view-filters form .form--inline>div select:not([multiple]):focus{outline:0 !important}.view-busca .view-filters form .form--inline>div input option,.view-busca .view-filters form .form--inline>div select:not([multiple]) option{max-width:100%;white-space:normal;font-size:Roboto, sans-serif;font-size:18px;font-weight:700;color:#68256c;margin-bottom:15px}.view-busca .view-filters form .form--inline>div select[multiple]{outline:0;border:0;background:transparent;overflow:visible;outline:0 !important;box-shadow:none}.view-busca .view-filters form .form--inline>div select[multiple]:focus{outline:0 !important;box-shadow:none}.view-busca .view-filters form .form--inline>div select[multiple] option{position:relative;max-width:100%;white-space:normal;font-family:"Roboto", sans-serif;font-size:14px;font-weight:400;color:#3b3a38;margin-bottom:5px;padding-left:20px}.view-busca .view-filters form .form--inline>div select[multiple] option:before{content:"";position:absolute;top:50%;left:0;transform:translateY(-50%);z-index:1;display:flex;width:13px;height:13px;border-radius:50%;border:solid 1px #27a9e5}.view-busca .view-filters form .form--inline>div select[multiple] option:after{content:"";position:absolute;top:50%;left:2px;transform:translateY(-50%);z-index:1;display:flex;width:9px;height:9px;border-radius:50%;border:0}.view-busca .view-filters form .form--inline>div select[multiple] option:checked{background-color:transparent !important;outline:0}.view-busca .view-filters form .form--inline>div select[multiple] option:checked:after{background-color:#68256c}.view-busca .view-filters form .form--inline>div .select-fake-container{display:flex;flex-wrap:wrap;gap:5}.view-busca .view-filters form .form--inline>div .select-fake-container div{flex:0 0 33.33%;max-width:33.33%;position:relative;white-space:normal;font-family:"Roboto", sans-serif;font-size:14px;font-weight:400;color:#3b3a38;margin-bottom:5px;padding-left:20px;cursor:pointer;display:flex;align-items:center}.view-busca .view-filters form .form--inline>div .select-fake-container div:before{content:"";position:absolute;top:50%;left:0;transform:translateY(-50%);z-index:1;display:flex;width:13px;height:13px;border-radius:50%;border:solid 1px #27a9e5}.view-busca .view-filters form .form--inline>div .select-fake-container div:after{content:"";position:absolute;top:50%;left:2px;transform:translateY(-50%);z-index:1;display:flex;width:9px;height:9px;border-radius:50%;border:0}.view-busca .view-filters form .form--inline>div .select-fake-container div.checked{background-color:transparent !important;outline:0}.view-busca .view-filters form .form--inline>div .select-fake-container div.checked:after{background-color:#68256c}.view-busca .view-filters form .form--inline>div input[type="submit"]{width:100%;height:44px;border:0;background-color:#6a246d;font-size:16px;font-weight:500;color:#ffc301;margin:30px 0 0;display:none}.view-busca .view-filters form .form--inline>div input[type="submit"].show{display:block}.view-busca .view-filters form .form--inline>div.form-actions{order:2;display:none}.path-frontpage .view-busca .view-content{display:none}.webform-submission-conta-pra-gente-form{display:flex;flex-wrap:wrap;gap:30px}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right{display:flex;flex-wrap:wrap;flex:0 0 50%;max-width:50%}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div{flex:0 0 100%;max-width:100%;padding-bottom:30px;font-family:"Roboto", sans-serif}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div label,.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div legend,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div label,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div legend{font-size:20px;font-weight:700;color:#68256c}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div input[type="text"],.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div input[type="email"],.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div textarea,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div input[type="text"],.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div input[type="email"],.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div textarea{border:solid 1px #27a9e5;font-family:"Roboto", sans-serif;font-size:16px;color:#666;border-radius:50px;height:35px;padding:2px 10px}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div textarea,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div textarea{height:165px;border-radius:20px}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .form-type-checkbox,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .form-type-checkbox{margin-bottom:20px}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .form-type-checkbox input[type="checkbox"],.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .form-type-checkbox input[type="checkbox"]{display:none}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .form-type-checkbox input[type="checkbox"]+label,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .form-type-checkbox input[type="checkbox"]+label{position:relative;padding-left:40px}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .form-type-checkbox input[type="checkbox"]+label:before,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .form-type-checkbox input[type="checkbox"]+label:before{content:"";position:absolute;top:50%;left:0;transform:translateY(-50%);z-index:1;display:flex;width:35px;height:35px;border-radius:50%;border:solid 1px #27a9e5}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .form-type-checkbox input[type="checkbox"]+label:after,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .form-type-checkbox input[type="checkbox"]+label:after{content:"";position:absolute;top:50%;left:5px;transform:translateY(-50%);z-index:1;display:flex;width:25px;height:25px;border-radius:50%;border:0}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .form-type-checkbox input[type="checkbox"]:checked+label:after,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .form-type-checkbox input[type="checkbox"]:checked+label:after{background-color:#68256c}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .js-form-type-managed-file .js-form-managed-file,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .js-form-type-managed-file .js-form-managed-file{position:relative;padding-bottom:20px}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .js-form-type-managed-file .js-form-managed-file input[type="file"],.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .js-form-type-managed-file .js-form-managed-file input[type="file"]{visibility:hidden}.webform-submission-conta-pra-gente-form #edit-flexbox-col-left>div .js-form-type-managed-file .js-form-managed-file:before,.webform-submission-conta-pra-gente-form #edit-flexbox-col-right>div .js-form-type-managed-file .js-form-managed-file:before{content:"Anexar os arquivos";display:inline-block;padding:8px 16px;position:absolute;top:0;left:0;background-color:#27a9e5;font-size:18px;font-family:"Roboto", sans-serif;font-weight:500;color:#fff;border-radius:50px}.webform-submission-conta-pra-gente-form .form-actions{margin:0}.webform-submission-conta-pra-gente-form .form-actions input[type="submit"]{border-radius:50px;background-color:#6c246e;color:#fdc300;font-size:22px;font-weight:700;font-family:"Roboto", sans-serif;border:0;margin:0}.block-page-title-block{display:flex;align-items:center;justify-content:center}.block-page-title-block h1{border-radius:50px;background-color:#6c246e;color:#fdc300;font-size:32px;font-weight:700;font-family:"Roboto", sans-serif;padding:28px 50px;margin-bottom:45px}.node-programa-infos .comma-element:after{content:", "}.node-programa-infos .comma-element:last-of-type:after{content:""}
+/*
+    Extends
+*/
+/* line 2, scss/custom/page.scss */
+.page-header {
+  background: #6c246e;
+  color: #f9c400;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 25px 50px;
+  border-radius: 50px;
+  margin-bottom: 60px; }
+
+/* line 12, scss/custom/page.scss */
+.page-header-basico {
+  background: #6c246e;
+  color: #f9c400;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 10px 120px;
+  border-radius: 50px;
+  margin-bottom: 60px; }
+
+/* line 22, scss/custom/page.scss */
+.resultado-busca {
+  padding-bottom: 10px; }
+
+/* line 26, scss/custom/page.scss */
+.titles {
+  color: #029fe6;
+  font-weight: 700;
+  font-size: 18px; }
+
+/* line 33, scss/custom/page.scss */
+.table-content caption {
+  display: none; }
+
+/* line 36, scss/custom/page.scss */
+.table-content table {
+  border-collapse: separate;
+  border-spacing: 15px; }
+  /* line 39, scss/custom/page.scss */
+  .table-content table th {
+    background-color: #e6dfd9;
+    color: #1e1e1e;
+    border: 0; }
+  /* line 44, scss/custom/page.scss */
+  .table-content table td {
+    border: 0; }
+  /* line 47, scss/custom/page.scss */
+  .table-content table tr:nth-child(odd) td {
+    background-color: #fff; }
+  /* line 50, scss/custom/page.scss */
+  .table-content table tr:nth-child(even) td {
+    background-color: #f4f3f1; }
+
+/* line 57, scss/custom/page.scss */
+.busca-home .criancas {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url(../../img/criancas.png) center no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 0;
+  margin-top: -300px; }
+  @media only screen and (min-width: 0) and (max-width: 880px) {
+    /* line 57, scss/custom/page.scss */
+    .busca-home .criancas {
+      margin-top: -100px; } }
+
+/* line 72, scss/custom/page.scss */
+.busca-home .rocket {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url(../../img/rocket.png) center no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  margin-right: -60px;
+  top: 0;
+  margin-top: -180px; }
+
+/* line 86, scss/custom/page.scss */
+.label-busca {
+  color: #6a246d;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 70px; }
+
+/* line 94, scss/custom/page.scss */
+.label-filters {
+  font-weight: 700;
+  font-size: 16px;
+  color: #27a9e5; }
+
+/* line 100, scss/custom/page.scss */
+.navbar-brand {
+  padding-top: 8.313rem; }
+
+/* line 104, scss/custom/page.scss */
+.label-busca-submit {
+  width: 100%;
+  max-height: 44px;
+  height: 100%;
+  border: 0;
+  background-color: #6a246d;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffc301;
+  margin: 30px 0 0; }
+
+/* line 115, scss/custom/page.scss */
+.first-filter-block {
+  border-bottom-style: thin;
+  border-bottom: 1px solid #d4cfcf;
+  margin-bottom: 15px; }
+
+/* line 121, scss/custom/page.scss */
+.form-control {
+  border-radius: 0.95em; }
+
+/* line 125, scss/custom/page.scss */
+.label-busca-submit {
+  width: 40%;
+  height: 38px;
+  border-radius: 0.95em;
+  margin: 14px 0 0 0; }
+
+/* line 136, scss/custom/page.scss */
+.label-busca {
+  margin-bottom: 30px; }
+
+/* line 140, scss/custom/page.scss */
+.view-busca {
+  position: relative; }
+  /* line 145, scss/custom/page.scss */
+  .view-busca .view-filters form .form--inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: -15px;
+    margin-right: -15px; }
+    /* line 151, scss/custom/page.scss */
+    .view-busca .view-filters form .form--inline > div {
+      flex: 0 0 25%;
+      max-width: 25%;
+      margin: 0;
+      padding: 0 15px 20px; }
+      /* line 156, scss/custom/page.scss */
+      .view-busca .view-filters form .form--inline > div.form-item-tipo-de-atividades {
+        flex: 0 0 75%;
+        max-width: 75%; }
+        /* line 159, scss/custom/page.scss */
+        .view-busca .view-filters form .form--inline > div.form-item-tipo-de-atividades select {
+          display: flex;
+          display: none; }
+          /* line 162, scss/custom/page.scss */
+          .view-busca .view-filters form .form--inline > div.form-item-tipo-de-atividades select option {
+            flex: 0 0 33.33%;
+            max-width: 33.33%; }
+      /* line 168, scss/custom/page.scss */
+      .view-busca .view-filters form .form--inline > div label {
+        font-weight: 700;
+        font-size: 16px;
+        color: #27a9e5; }
+      /* line 173, scss/custom/page.scss */
+      .view-busca .view-filters form .form--inline > div input,
+      .view-busca .view-filters form .form--inline > div select:not([multiple]) {
+        height: 42px;
+        padding: 0 10px;
+        border-radius: 50px;
+        border: solid 1px #27a9e5;
+        font-size: Roboto, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        outline: 0;
+        outline: 0 !important; }
+        /* line 184, scss/custom/page.scss */
+        .view-busca .view-filters form .form--inline > div input:focus,
+        .view-busca .view-filters form .form--inline > div select:not([multiple]):focus {
+          outline: 0 !important; }
+        /* line 187, scss/custom/page.scss */
+        .view-busca .view-filters form .form--inline > div input option,
+        .view-busca .view-filters form .form--inline > div select:not([multiple]) option {
+          max-width: 100%;
+          white-space: normal;
+          font-size: Roboto, sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          color: #68256c;
+          margin-bottom: 15px; }
+      /* line 197, scss/custom/page.scss */
+      .view-busca .view-filters form .form--inline > div select[multiple] {
+        outline: 0;
+        border: 0;
+        background: transparent;
+        overflow: visible;
+        outline: 0 !important;
+        box-shadow: none; }
+        /* line 206, scss/custom/page.scss */
+        .view-busca .view-filters form .form--inline > div select[multiple]:focus {
+          outline: 0 !important;
+          box-shadow: none; }
+        /* line 210, scss/custom/page.scss */
+        .view-busca .view-filters form .form--inline > div select[multiple] option {
+          position: relative;
+          max-width: 100%;
+          white-space: normal;
+          font-family: "Roboto", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #3b3a38;
+          margin-bottom: 5px;
+          padding-left: 20px; }
+          /* line 220, scss/custom/page.scss */
+          .view-busca .view-filters form .form--inline > div select[multiple] option:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            z-index: 1;
+            display: flex;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            border: solid 1px #27a9e5; }
+          /* line 233, scss/custom/page.scss */
+          .view-busca .view-filters form .form--inline > div select[multiple] option:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 2px;
+            transform: translateY(-50%);
+            z-index: 1;
+            display: flex;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            border: 0; }
+          /* line 247, scss/custom/page.scss */
+          .view-busca .view-filters form .form--inline > div select[multiple] option:checked {
+            background-color: transparent !important;
+            outline: 0; }
+            /* line 250, scss/custom/page.scss */
+            .view-busca .view-filters form .form--inline > div select[multiple] option:checked:after {
+              background-color: #68256c; }
+      /* line 256, scss/custom/page.scss */
+      .view-busca .view-filters form .form--inline > div .select-fake-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5; }
+        /* line 260, scss/custom/page.scss */
+        .view-busca .view-filters form .form--inline > div .select-fake-container div {
+          flex: 0 0 33.33%;
+          max-width: 33.33%;
+          position: relative;
+          white-space: normal;
+          font-family: "Roboto", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #3b3a38;
+          margin-bottom: 5px;
+          padding-left: 20px;
+          cursor: pointer;
+          display: flex;
+          align-items: center; }
+          /* line 274, scss/custom/page.scss */
+          .view-busca .view-filters form .form--inline > div .select-fake-container div:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            z-index: 1;
+            display: flex;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            border: solid 1px #27a9e5; }
+          /* line 287, scss/custom/page.scss */
+          .view-busca .view-filters form .form--inline > div .select-fake-container div:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 2px;
+            transform: translateY(-50%);
+            z-index: 1;
+            display: flex;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            border: 0; }
+          /* line 301, scss/custom/page.scss */
+          .view-busca .view-filters form .form--inline > div .select-fake-container div.checked {
+            background-color: transparent !important;
+            outline: 0; }
+            /* line 304, scss/custom/page.scss */
+            .view-busca .view-filters form .form--inline > div .select-fake-container div.checked:after {
+              background-color: #68256c; }
+      /* line 310, scss/custom/page.scss */
+      .view-busca .view-filters form .form--inline > div input[type="submit"] {
+        width: 100%;
+        height: 44px;
+        border: 0;
+        background-color: #6a246d;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffc301;
+        margin: 30px 0 0;
+        display: none; }
+        /* line 320, scss/custom/page.scss */
+        .view-busca .view-filters form .form--inline > div input[type="submit"].show {
+          display: block; }
+      /* line 324, scss/custom/page.scss */
+      .view-busca .view-filters form .form--inline > div.form-actions {
+        order: 2;
+        display: none; }
+
+/* line 337, scss/custom/page.scss */
+.path-frontpage .view-busca .view-content {
+  display: none; }
+
+/* line 341, scss/custom/page.scss */
+.webform-submission-conta-pra-gente-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; }
+  /* line 345, scss/custom/page.scss */
+  .webform-submission-conta-pra-gente-form #edit-flexbox-col-left,
+  .webform-submission-conta-pra-gente-form #edit-flexbox-col-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    max-width: 50%; }
+    /* line 351, scss/custom/page.scss */
+    .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div,
+    .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-bottom: 30px;
+      font-family: "Roboto", sans-serif; }
+      /* line 356, scss/custom/page.scss */
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div label,
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div legend,
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div label,
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div legend {
+        font-size: 20px;
+        font-weight: 700;
+        color: #68256c; }
+      /* line 362, scss/custom/page.scss */
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div input[type="text"],
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div input[type="email"],
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div textarea,
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div input[type="text"],
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div input[type="email"],
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div textarea {
+        border: solid 1px #27a9e5;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: #666;
+        border-radius: 50px;
+        height: 35px;
+        padding: 2px 10px; }
+      /* line 373, scss/custom/page.scss */
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div textarea,
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div textarea {
+        height: 165px;
+        border-radius: 20px; }
+      /* line 377, scss/custom/page.scss */
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox,
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox {
+        margin-bottom: 20px; }
+        /* line 379, scss/custom/page.scss */
+        .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"],
+        .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"] {
+          display: none; }
+          /* line 381, scss/custom/page.scss */
+          .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"] + label,
+          .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"] + label {
+            position: relative;
+            padding-left: 40px; }
+            /* line 384, scss/custom/page.scss */
+            .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"] + label:before,
+            .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"] + label:before {
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              z-index: 1;
+              display: flex;
+              width: 35px;
+              height: 35px;
+              border-radius: 50%;
+              border: solid 1px #27a9e5; }
+            /* line 397, scss/custom/page.scss */
+            .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"] + label:after,
+            .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"] + label:after {
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 5px;
+              transform: translateY(-50%);
+              z-index: 1;
+              display: flex;
+              width: 25px;
+              height: 25px;
+              border-radius: 50%;
+              border: 0; }
+          /* line 413, scss/custom/page.scss */
+          .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .form-type-checkbox input[type="checkbox"]:checked + label:after,
+          .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .form-type-checkbox input[type="checkbox"]:checked + label:after {
+            background-color: #68256c; }
+      /* line 420, scss/custom/page.scss */
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .js-form-type-managed-file .js-form-managed-file,
+      .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .js-form-type-managed-file .js-form-managed-file {
+        position: relative;
+        padding-bottom: 20px; }
+        /* line 423, scss/custom/page.scss */
+        .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .js-form-type-managed-file .js-form-managed-file input[type="file"],
+        .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .js-form-type-managed-file .js-form-managed-file input[type="file"] {
+          visibility: hidden; }
+        /* line 426, scss/custom/page.scss */
+        .webform-submission-conta-pra-gente-form #edit-flexbox-col-left > div .js-form-type-managed-file .js-form-managed-file:before,
+        .webform-submission-conta-pra-gente-form #edit-flexbox-col-right > div .js-form-type-managed-file .js-form-managed-file:before {
+          content: "Anexar os arquivos";
+          display: inline-block;
+          padding: 8px 16px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: #27a9e5;
+          font-size: 18px;
+          font-family: "Roboto", sans-serif;
+          font-weight: 500;
+          color: #fff;
+          border-radius: 50px; }
+  /* line 444, scss/custom/page.scss */
+  .webform-submission-conta-pra-gente-form .form-actions {
+    margin: 0; }
+    /* line 446, scss/custom/page.scss */
+    .webform-submission-conta-pra-gente-form .form-actions input[type="submit"] {
+      border-radius: 50px;
+      background-color: #6c246e;
+      color: #fdc300;
+      font-size: 22px;
+      font-weight: 700;
+      font-family: "Roboto", sans-serif;
+      border: 0;
+      margin: 0; }
+
+/* line 459, scss/custom/page.scss */
+.block-page-title-block {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  /* line 463, scss/custom/page.scss */
+  .block-page-title-block h1 {
+    border-radius: 50px;
+    background-color: #6c246e;
+    color: #fdc300;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    padding: 28px 50px;
+    margin-bottom: 45px; }
+
+/* line 477, scss/custom/page.scss */
+.node-programa-infos .comma-element:after {
+  content: ", "; }
+
+/* line 481, scss/custom/page.scss */
+.node-programa-infos .comma-element:last-of-type:after {
+  content: ""; }
