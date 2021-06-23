@@ -1,0 +1,96 @@
+<form accept-charset="UTF-8" action="/busca" class="a" id="views-exposed-form-busca-page-1" method="get">
+<div class="row first-filter-block">
+<div class="col-lg-3 pl-5 pl-lg-0 pr-5 pr-lg-0">
+<div class="form-group">
+<h2 class="label-busca text-center text-lg-left"><label>Busca Avançada</label></h2>
+
+<p><label class="label-filters">Pesquisar por palavra-chave:</label></p>
+<input class="form-control" id="buscar" name="p" type="text" /><button class="btn btn-primary label-busca-submit text-center" type="submit">Pesquisar</button></div>
+</div>
+
+<div class="col-lg-3 col-md-4 pt-5 pt-lg-0">
+<div class="form-group">
+<p><label class="label-filters">Tipo de conteúdo</label></p>
+
+<div class="form-check"><input class="form-check-input" id="tipo1" name="tipo_de_conteudo" type="radio" value="3" /> <label class="form-check-label" for="tipo1">Afros-Brasileiro</label></div>
+
+<div class="form-check"><input class="form-check-input" id="tipo2" name="tipo_de_conteudo" type="radio" value="2" /> <label class="form-check-label" for="tipo2">Amazônia</label></div>
+
+<div class="form-check">
+<p><input class="form-check-input" id="tipo3" name="tipo_de_conteudo" type="radio" value="1" /> <label class="form-check-label" for="tipo3">Geral</label></p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-4 pt-5 pt-lg-0">
+<div class="form-group">
+<p><label class="label-filters">Direito de aprendizagem:</label></p>
+
+<div class="form-check"><input class="form-check-input" id="direito1" name="direito_de_aprendizagem[]" type="checkbox" value="4" /> <label class="form-check-label" for="direito1">Brincar</label></div>
+
+<div class="form-check"><input class="form-check-input" id="direito2" name="direito_de_aprendizagem[]" type="checkbox" value="5" /> <label class="form-check-label" for="direito2">Expressar</label></div>
+
+<div class="form-check"><input class="form-check-input" id="direito3" name="direito_de_aprendizagem[]" type="checkbox" value="6" /> <label class="form-check-label" for="direito3">Conhecer-se</label></div>
+
+<div class="form-check"><input class="form-check-input" id="direito4" name="direito_de_aprendizagem[]" type="checkbox" value="19" /> <label class="form-check-label" for="direito4">Conviver</label></div>
+
+<div class="form-check"><input class="form-check-input" id="direito5" name="direito_de_aprendizagem[]" type="checkbox" value="20" /> <label class="form-check-label" for="direito5">Explorar</label></div>
+
+<div class="form-check">
+<p><input class="form-check-input" id="direito6" name="direito_de_aprendizagem[]" type="checkbox" value="15" /> <label class="form-check-label" for="direito6">Participar</label></p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-4 pt-5 pt-lg-0">
+<div class="form-group">
+<p><label class="label-filters">Campos de experiência:</label></p>
+
+<div class="form-check"><input class="form-check-input" id="direito1" name="campos_de_experiencia[]" type="checkbox" value="16" /> <label class="form-check-label" for="direito1">O eu, o outro e o nós</label></div>
+
+<div class="form-check"><input class="form-check-input" id="direito2" name="campos_de_experiencia[]" type="checkbox" value="17" /> <label class="form-check-label" for="direito2">Escuta, Fala, Pensamento e Imaginação</label></div>
+
+<div class="form-check"><input class="form-check-input" id="direito3" name="campos_de_experiencia[]" type="checkbox" value="21" /> <label class="form-check-label" for="direito3">Traços, Sons, Cores e Formas</label></div>
+
+<div class="form-check"><input class="form-check-input" id="direito4" name="campos_de_experiencia[]" type="checkbox" value="22" /> <label class="form-check-label" for="direito4">Espaços, Tempos, Quantidades, Relações e Transformações</label></div>
+
+<div class="form-check"><input class="form-check-input" id="direito5" name="campos_de_experiencia[]" type="checkbox" value="18" /> <label class="form-check-label" for="direito5">Corpos, Gestos e Movimentos</label></div>
+
+<div class="form-check">&nbsp;</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-3 col-sm-4  offset-lg-3"><label class="label-filters">Tipo de atividade:</label>
+
+<div class="form-check"><input class="form-check-input" id="atividade1" name="tipo_de_atividades[]" type="checkbox" value="9" /> <label class="form-check-label" for="atividade1">Música/Dança</label></div>
+
+<div class="form-check"><input class="form-check-input" id="atividade2" name="tipo_de_atividades[]" type="checkbox" value="24" /> <label class="form-check-label" for="atividade2">Trava-Línguas</label></div>
+
+<div class="form-check"><input class="form-check-input" id="atividade3" name="tipo_de_atividades[]" type="checkbox" value="10" /> <label class="form-check-label" for="atividade3">Entrevista</label></div>
+
+<div class="form-check"><input class="form-check-input" id="atividade4" name="tipo_de_atividades[]" type="checkbox" value="27" /> <label class="form-check-label" for="atividade4">Como é a sua avó?</label></div>
+</div>
+
+<div class="col-lg-3 col-sm-4 ">
+<div class="form-check">&nbsp;</div>
+
+<div class="form-check"><input class="form-check-input" id="atividade5" name="tipo_de_atividades[]" type="checkbox" value="28" /> <label class="form-check-label" for="atividade5">Cartas para sonhar</label></div>
+
+<div class="form-check"><input class="form-check-input" id="atividade6" name="tipo_de_atividades[]" type="checkbox" value="29" /> <label class="form-check-label" for="atividade6">Xô Coronavírus</label></div>
+
+<div class="form-check"><input class="form-check-input" id="atividade7" name="tipo_de_atividades[]" type="checkbox" value="11" /> <label class="form-check-label" for="atividade7">Floresta Viva</label></div>
+
+<div class="form-check"><input class="form-check-input" id="atividade8" name="tipo_de_atividades[]" type="checkbox" value="30" /> <label class="form-check-label" for="atividade8">Silêncio</label></div>
+</div>
+
+<div class="col-lg-3 col-sm-4 ">
+<div class="form-check">&nbsp;</div>
+
+<div class="form-check"><input class="form-check-input" id="atividade9" name="tipo_de_atividades[]" type="checkbox" value="31" /><label class="form-check-label" for="atividade9">Personagens (Euzébio e Aurora/Arapapá)</label></div>
+
+<div class="form-check"><input class="form-check-input" id="atividade10" name="tipo_de_atividades[]" type="checkbox" value="32" /> <label class="form-check-label" for="atividade10">Ampliando o Vocabulário (Pretoguês/Palavras Tupi)</label></div>
+</div>
+</div>
+</form>
