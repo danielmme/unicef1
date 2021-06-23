@@ -9760,14 +9760,6 @@ a.download {
   padding-left: 60px;
   justify-content: space-between; }
 
-/* line 75, scss/style.scss */
-#footer-middle-column {
-  padding-left: 70px; }
-
-/* line 78, scss/style.scss */
-#only-icons {
-  padding-left: 37px; }
-
 /* line 82, scss/style.scss */
 ul.social-icons {
   display: flex;
