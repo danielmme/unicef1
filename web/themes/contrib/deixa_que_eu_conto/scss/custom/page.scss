@@ -36,6 +36,10 @@
   table {
     border-collapse: separate;
     border-spacing: 15px;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     th {
       background-color: #e6dfd9;
       color: #1e1e1e;
