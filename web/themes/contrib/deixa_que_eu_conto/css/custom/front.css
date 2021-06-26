@@ -189,8 +189,8 @@ section.amazonia {
       height: 125px;
       background: url(../../img/home-title-amazonia.png) center top no-repeat;
       background-size: contain;
-      padding: 0;
-      margin: 0; }
+      margin: 0 0 2rem;
+      padding: 0; }
     /* line 203, scss/custom/front.scss */
     .home-amazonia .header p {
       text-align: center;
