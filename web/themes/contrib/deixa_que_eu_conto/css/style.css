@@ -9702,6 +9702,9 @@ a.tabledrag-handle .handle {
 code {
   overflow-y: auto; }
 
+/*
+    Extends
+*/
 /* line 17, scss/style.scss */
 body {
   overflow-x: hidden; }
@@ -9719,7 +9722,14 @@ a.download {
   /* line 30, scss/style.scss */
   a.download span {
     font-size: 25px; }
-  /* line 33, scss/style.scss */
+  @media only screen and (min-width: 0) and (max-width: 600px) {
+    /* line 21, scss/style.scss */
+    a.download {
+      font-size: 16px; }
+      /* line 35, scss/style.scss */
+      a.download span {
+        font-size: 20px; } }
+  /* line 39, scss/style.scss */
   a.download:before {
     content: "";
     display: block;
@@ -9730,44 +9740,44 @@ a.download {
     transform: translateY(-50%);
     left: 0;
     background: url(../img/footer-download.png) center no-repeat; }
-  /* line 44, scss/style.scss */
+  /* line 50, scss/style.scss */
   a.download.doc:before {
     background: url(../img/footer-download2.png) center no-repeat; }
-  /* line 47, scss/style.scss */
+  /* line 53, scss/style.scss */
   a.download.node:before {
     width: 50px;
     height: 51px;
     background: url(../img/icon-node-download.png) center no-repeat; }
-  /* line 52, scss/style.scss */
+  /* line 58, scss/style.scss */
   a.download.node-pdf:before {
     width: 50px;
     height: 51px;
     background: url(../img/icon-node-pdf.png) center no-repeat; }
-  /* line 57, scss/style.scss */
+  /* line 63, scss/style.scss */
   a.download.node-youtube:before {
     width: 50px;
     height: 51px;
     background: url(../img/icon-node-youtube.png) center no-repeat; }
-  /* line 62, scss/style.scss */
+  /* line 68, scss/style.scss */
   a.download.node-spotify:before {
     width: 50px;
     height: 51px;
     background: url(../img/icon-node-spotify.png) center no-repeat; }
 
-/* line 69, scss/style.scss */
+/* line 75, scss/style.scss */
 #social-icons-upper {
   padding-right: 45px;
   padding-left: 60px;
   justify-content: space-between; }
 
-/* line 82, scss/style.scss */
+/* line 88, scss/style.scss */
 ul.social-icons {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
   max-width: 100%; }
-  /* line 90, scss/style.scss */
+  /* line 96, scss/style.scss */
   ul.social-icons li {
     display: flex;
     font-size: 18px;
@@ -9776,45 +9786,45 @@ ul.social-icons {
     text-transform: uppercase;
     justify-content: space-between;
     align-items: center; }
-    /* line 98, scss/style.scss */
+    /* line 104, scss/style.scss */
     ul.social-icons li:not(:first-child) {
       margin-left: 10px; }
-    /* line 101, scss/style.scss */
+    /* line 107, scss/style.scss */
     ul.social-icons li a {
       color: #22a7df; }
-    /* line 104, scss/style.scss */
+    /* line 110, scss/style.scss */
     ul.social-icons li:after {
       content: "";
       display: block;
       width: 40px;
       height: 38px;
       margin-left: 5px; }
-    /* line 112, scss/style.scss */
+    /* line 118, scss/style.scss */
     ul.social-icons li.icon-facebook:after {
       background: url(../img/icon-social-facebook.png) center no-repeat; }
-    /* line 117, scss/style.scss */
+    /* line 123, scss/style.scss */
     ul.social-icons li.icon-twitter:after {
       background: url(../img/icon-social-twitter.png) center no-repeat; }
-    /* line 122, scss/style.scss */
+    /* line 128, scss/style.scss */
     ul.social-icons li.icon-instagram:after {
       background: url(../img/icon-social-instagram.png) center no-repeat; }
-    /* line 127, scss/style.scss */
+    /* line 133, scss/style.scss */
     ul.social-icons li.icon-whatsapp:after {
       background: url(../img/icon-social-whatsapp.png) center no-repeat; }
-    /* line 132, scss/style.scss */
+    /* line 138, scss/style.scss */
     ul.social-icons li.icon-linkedin:after {
       background: url(../img/icon-social-linkedin.png) center no-repeat; }
-    /* line 137, scss/style.scss */
+    /* line 143, scss/style.scss */
     ul.social-icons li.icon-spotify:after {
       background: url(../img/icon-social-spotify.png) center no-repeat; }
-    /* line 142, scss/style.scss */
+    /* line 148, scss/style.scss */
     ul.social-icons li.icon-youtube:after {
       background: url(../img/icon-social-youtube.png) center no-repeat; }
-  /* line 148, scss/style.scss */
+  /* line 154, scss/style.scss */
   ul.social-icons.only-icons li {
     font-size: 0;
     position: relative; }
-    /* line 151, scss/style.scss */
+    /* line 157, scss/style.scss */
     ul.social-icons.only-icons li a {
       color: #22a7df;
       display: block;
@@ -9824,7 +9834,7 @@ ul.social-icons {
       top: 0;
       left: 0;
       z-index: 2; }
-    /* line 161, scss/style.scss */
+    /* line 167, scss/style.scss */
     ul.social-icons.only-icons li:after {
       position: relative;
       z-index: 1;

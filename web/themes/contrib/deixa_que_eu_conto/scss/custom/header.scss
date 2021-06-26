@@ -9,17 +9,27 @@ header.header {
   // &:before,
   // &:after {
   @include mqrange(0, 880px) {
+    min-height: auto;
+    background: url(../../img/header-bg.png) center top no-repeat;
+    background-size: 140%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 500px 1fr;
+    grid-template-rows: 75vw 100px;
     gap: 30px;
     grid-template-areas:
       ". logo logo ."
       ". unicef idade .";
     .region-header {
       grid-area: logo;
-      & > div[class*="branding"] .navbar-brand a {
-        margin-bottom: 0 !important;
+      & > div[class*="branding"] {
+        display: flex;
+        justify-content: center;
+        .navbar-brand {
+          max-width: 80%;
+          a {
+            margin-bottom: 0 !important;
+          }
+        }
       }
     }
     .unicef {
@@ -36,7 +46,7 @@ header.header {
   @include mqrange(0, 650px) {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: 500px 1fr;
+    // grid-template-rows: 55vw 100px;
     gap: 30px;
     grid-template-areas:
       ". logo logo . "

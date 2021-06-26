@@ -13,7 +13,7 @@
 @import "../bootstrap4/scss/style";
 // OR to go back to Bootstrap 4.6.0
 //@import "[DOCROOT]/themes/contrib/bootstrap4/scss/style-4-5";
-
+@import "mixins";
 body {
   overflow-x: hidden;
 }
@@ -29,6 +29,12 @@ a.download {
   padding-left: 58px;
   span {
     font-size: 25px;
+  }
+  @include mqrange(0, 600px) {
+    font-size: 16px;
+    span {
+      font-size: 20px;
+    }
   }
   &:before {
     content: "";
