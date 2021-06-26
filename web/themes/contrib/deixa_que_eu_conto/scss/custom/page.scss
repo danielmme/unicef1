@@ -20,7 +20,7 @@
 }
 
 .resultado-busca {
-  padding-bottom: 10px;
+  padding-bottom: 2rem;
 }
 
 .titles {
@@ -486,5 +486,18 @@
         content: "";
       }
     }
+  }
+}
+
+// view busca
+
+.view-busca {
+  padding-top: 3rem;
+  .view-header {
+    display: none;
+  }
+  .views-row:not(:last-child) {
+    border-bottom: solid 1px #e1e1e1;
+    margin-bottom: 2rem;
   }
 }

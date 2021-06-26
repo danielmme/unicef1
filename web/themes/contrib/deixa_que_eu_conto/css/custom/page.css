@@ -23,7 +23,7 @@
 
 /* line 22, scss/custom/page.scss */
 .resultado-busca {
-  padding-bottom: 10px; }
+  padding-bottom: 2rem; }
 
 /* line 26, scss/custom/page.scss */
 .titles {
@@ -482,3 +482,14 @@
 /* line 485, scss/custom/page.scss */
 .node-programa-infos .comma-element:last-of-type:after {
   content: ""; }
+
+/* line 494, scss/custom/page.scss */
+.view-busca {
+  padding-top: 3rem; }
+  /* line 496, scss/custom/page.scss */
+  .view-busca .view-header {
+    display: none; }
+  /* line 499, scss/custom/page.scss */
+  .view-busca .views-row:not(:last-child) {
+    border-bottom: solid 1px #e1e1e1;
+    margin-bottom: 2rem; }
