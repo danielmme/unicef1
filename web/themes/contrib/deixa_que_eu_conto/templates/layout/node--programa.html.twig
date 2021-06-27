@@ -104,6 +104,9 @@
   <div{{ content_attributes.addClass('node__content') }}>
   </div> #}
     <div v class="container">
+    {% set spotify = content.field_spotify[0]['#title']|raw %}
+    {% set video = content.field_video[0]['#input']|raw %}
+
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
          <div class="page-header">
@@ -113,22 +116,22 @@
         <div class="col-12 pb-5">
          <div class="row">
             <div class="col-6 col-lg-3 pb-4">
-              <a href="{{content.field_descricao.field_pdf_texto.0}}" class="download node-pdf" target="_blank">
+              <a href="{{content.field_pdf_texto.0}}" class="download node-pdf" download>
                 <span>Downloads</span> da ficha em pdf
               </a>
             </div>
             <div class="col-6 col-lg-3 pb-4">
-              <a href="{{content.field_descricao.field_podcast_texto.0}}" class="download node" target="_blank">
+              <a href="{{content.field_podcast_texto.0}}" class="download node" download>
                 <span>Downloads</span> deste podcast
               </a>
             </div>
             <div class="col-6 col-lg-3 pb-4">
-              <a href="{{content.field_video.0}}" class="download node-youtube" target="_blank">
+              <a href="{{video}}" class="download node-youtube" target="_blank">
                 <span>Assistir</span> no youtube
               </a>
             </div>
             <div class="col-6 col-lg-3 pb-4">
-              <a href="{{content.field_spotify.0}}" class="download node-spotify" target="_blank">
+              <a href="{{spotify}}" class="download node-spotify" target="_blank">
                 <span>Ouvir</span> no spotify
               </a>
             </div>
