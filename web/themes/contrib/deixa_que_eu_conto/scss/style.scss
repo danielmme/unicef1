@@ -172,3 +172,113 @@ ul.social-icons {
     }
   }
 }
+
+// colors sections
+.section-color-container {
+  .region.region-content {
+    padding: 0;
+  }
+  // padding-top: 200px;
+}
+.section-color {
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 230px;
+  &:first-of-type {
+    margin-top: 210px;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 198px;
+    top: 0;
+    left: 0;
+    margin-top: -198px;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &.color-01 {
+    background-color: #00b1eb;
+
+    &:before {
+      background-image: url(../img/01_topo.png);
+    }
+  }
+  &.color-02 {
+    background-color: #009fe3;
+
+    &:before {
+      background-image: url(../img/02_topo.png);
+    }
+  }
+  &.color-03 {
+    background-color: #a1c73f;
+
+    &:before {
+      background-image: url(../img/03_topo.png);
+    }
+  }
+  &.color-04 {
+    background-color: #87b926;
+
+    &:before {
+      background-image: url(../img/04_topo.png);
+    }
+  }
+  &.color-05 {
+    background-color: #fdc300;
+
+    &:before {
+      background-image: url(../img/05_topo.png);
+    }
+  }
+  &.color-06 {
+    background-color: #fecc5c;
+
+    &:before {
+      background-image: url(../img/06_topo.png);
+    }
+  }
+  &.color-07 {
+    background-color: #fed788;
+
+    &:before {
+      background-image: url(../img/07_topo.png);
+    }
+  }
+  &.color-08 {
+    background-color: #fecc5c;
+
+    &:before {
+      background-image: url(../img/08_topo.png);
+    }
+  }
+  &.color-09 {
+    background-color: #fdc300;
+
+    padding-bottom: 0;
+    margin-bottom: 200px;
+    &:before {
+      background-image: url(../img/09_topo.png);
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 198px;
+      bottom: 0;
+      left: 0;
+      margin-bottom: -198px;
+      z-index: 1;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url(../img/09_topo_.png);
+    }
+  }
+}
