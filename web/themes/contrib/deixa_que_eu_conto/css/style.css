@@ -1929,6 +1929,10 @@ textarea.form-control {
   display: block;
   padding-left: 1.25rem; }
 
+.form-check p {
+  margin-bottom: 0;
+}
+
 /* line 223, ../bootstrap4/dist/bootstrap/4.6.0/scss/_forms.scss */
 .form-check-input {
   position: absolute;
@@ -3122,7 +3126,7 @@ input[type="button"].btn-block {
   align-items: flex-start;
   justify-content: center; }
   /* line 116, ../bootstrap4/dist/bootstrap/4.6.0/scss/_button-group.scss */
-  
+
   .btn-group-vertical > .btn,
   .btn-group-vertical > a.button,
   .btn-group-vertical > .btn-group {
