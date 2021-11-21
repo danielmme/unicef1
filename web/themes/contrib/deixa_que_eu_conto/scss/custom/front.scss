@@ -212,7 +212,7 @@ section.amazonia {
   &:after {
     height: 137px;
     background: url(../../img/home-section-green-bottom.jpg) center top no-repeat;
-    bottom: 0;
+    bottom: -1px;
   }
 }
 
@@ -617,8 +617,8 @@ section.para-cada-crianca {
       .programa {
         margin-bottom: 20px;
         border-radius: 50px;
-        background-color: #6a246d;
-        color: #fff;
+        background-color: #fdc300;
+        color: #6a246d;
         display: inline-block;
         align-items: center;
         justify-content: center;
@@ -777,8 +777,8 @@ section.curtinhos {
       .programa {
         margin-bottom: 20px;
         border-radius: 50px;
-        background-color: #6a246d;
-        color: #fff;
+        background-color: #fdc300;
+        color: #6a246d;
         display: inline-block;
         align-items: center;
         justify-content: center;
