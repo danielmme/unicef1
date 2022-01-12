@@ -10,10 +10,11 @@
 // Relative path to this styles.scss file.
 // Example: @import "../../../themes/contrib/bootstrap4/scss/style";
 // @import "[DOCROOT]/themes/contrib/bootstrap4/scss/style";
-@import "../bootstrap4/scss/style";
+@import "../../bootstrap4/scss/style";
 // OR to go back to Bootstrap 4.6.0
 //@import "[DOCROOT]/themes/contrib/bootstrap4/scss/style-4-5";
-@import "mixins";
+@import "_mixins";
+
 body {
   overflow-x: hidden;
 }
@@ -27,15 +28,19 @@ a.download {
   text-transform: uppercase;
   color: #fdc300;
   padding-left: 58px;
+
   span {
     font-size: 25px;
   }
+
   @include mqrange(0, 600px) {
     font-size: 16px;
+
     span {
       font-size: 20px;
     }
   }
+
   &:before {
     content: "";
     display: block;
@@ -47,24 +52,29 @@ a.download {
     left: 0;
     background: url(../img/footer-download.png) center no-repeat;
   }
+
   &.doc:before {
     background: url(../img/footer-download2.png) center no-repeat;
   }
+
   &.node:before {
     width: 50px;
     height: 51px;
     background: url(../img/icon-node-download.png) center no-repeat;
   }
+
   &.node-pdf:before {
     width: 50px;
     height: 51px;
     background: url(../img/icon-node-pdf.png) center no-repeat;
   }
+
   &.node-youtube:before {
     width: 50px;
     height: 51px;
     background: url(../img/icon-node-youtube.png) center no-repeat;
   }
+
   &.node-spotify:before {
     width: 50px;
     height: 51px;
@@ -81,6 +91,7 @@ a.download {
 #footer-middle-column {
   // padding-left: 70px;
 }
+
 #only-icons {
   // padding-left: 37px;
 }
@@ -92,6 +103,7 @@ ul.social-icons {
   padding: 0;
   // flex: 0 0 100%;
   max-width: 100%;
+
   // justify-content: space-between;
   li {
     display: flex;
@@ -101,12 +113,15 @@ ul.social-icons {
     text-transform: uppercase;
     justify-content: space-between;
     align-items: center;
+
     &:not(:first-child) {
       margin-left: 10px;
     }
+
     a {
       color: #22a7df;
     }
+
     &:after {
       content: "";
       display: block;
@@ -114,46 +129,55 @@ ul.social-icons {
       height: 38px;
       margin-left: 5px;
     }
+
     &.icon-facebook {
       &:after {
         background: url(../img/icon-social-facebook.png) center no-repeat;
       }
     }
+
     &.icon-twitter {
       &:after {
         background: url(../img/icon-social-twitter.png) center no-repeat;
       }
     }
+
     &.icon-instagram {
       &:after {
         background: url(../img/icon-social-instagram.png) center no-repeat;
       }
     }
+
     &.icon-whatsapp {
       &:after {
         background: url(../img/icon-social-whatsapp.png) center no-repeat;
       }
     }
+
     &.icon-linkedin {
       &:after {
         background: url(../img/icon-social-linkedin.png) center no-repeat;
       }
     }
+
     &.icon-spotify {
       &:after {
         background: url(../img/icon-social-spotify.png) center no-repeat;
       }
     }
+
     &.icon-youtube {
       &:after {
         background: url(../img/icon-social-youtube.png) center no-repeat;
       }
     }
   }
+
   &.only-icons {
     li {
       font-size: 0;
       position: relative;
+
       a {
         color: #22a7df;
         display: block;
@@ -164,6 +188,7 @@ ul.social-icons {
         left: 0;
         z-index: 2;
       }
+
       &:after {
         position: relative;
         z-index: 1;
@@ -178,8 +203,10 @@ ul.social-icons {
   .region.region-content {
     padding: 0;
   }
+
   // padding-top: 200px;
 }
+
 .section-color {
   position: relative;
   margin-left: -15px;
@@ -188,9 +215,11 @@ ul.social-icons {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 230px;
+
   &:first-of-type {
     margin-top: 210px;
   }
+
   &:before {
     content: "";
     position: absolute;
@@ -202,7 +231,9 @@ ul.social-icons {
     z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
   }
+
   &.color-01 {
     background-color: #00b1eb;
 
@@ -210,6 +241,7 @@ ul.social-icons {
       background-image: url(../img/01_topo.png);
     }
   }
+
   &.color-02 {
     background-color: #009fe3;
 
@@ -217,6 +249,7 @@ ul.social-icons {
       background-image: url(../img/02_topo.png);
     }
   }
+
   &.color-03 {
     background-color: #a1c73f;
 
@@ -224,6 +257,7 @@ ul.social-icons {
       background-image: url(../img/03_topo.png);
     }
   }
+
   &.color-04 {
     background-color: #87b926;
 
@@ -231,6 +265,7 @@ ul.social-icons {
       background-image: url(../img/04_topo.png);
     }
   }
+
   &.color-05 {
     background-color: #fdc300;
 
@@ -238,6 +273,7 @@ ul.social-icons {
       background-image: url(../img/05_topo.png);
     }
   }
+
   &.color-06 {
     background-color: #fecc5c;
 
@@ -245,6 +281,7 @@ ul.social-icons {
       background-image: url(../img/06_topo.png);
     }
   }
+
   &.color-07 {
     background-color: #fed788;
 
@@ -252,6 +289,7 @@ ul.social-icons {
       background-image: url(../img/07_topo.png);
     }
   }
+
   &.color-08 {
     background-color: #fecc5c;
 
@@ -259,14 +297,72 @@ ul.social-icons {
       background-image: url(../img/08_topo.png);
     }
   }
+
   &.color-09 {
     background-color: #fdc300;
-
     padding-bottom: 0;
-    margin-bottom: 200px;
+    padding-bottom: 230px;
     &:before {
       background-image: url(../img/09_topo.png);
     }
+  }
+
+  &.color-10 {
+    background-color: #6a246e;
+    &:before {
+      background-image:url(../img/10_topo.png);
+    }
+  }
+
+  &.color-11 {
+    background-color: #712b78;
+    &:before {
+      background-image:url(../img/11_topo.png);
+    }
+  }
+
+  &.color-12 {
+    background-color: #81328a;
+    &:before {
+      background-image:url(../img/12_topo.png);
+    }
+  }
+
+  &.color-13 {
+    background-color: #6a246e;
+    &:before {
+    background-image:url(../img/13_topo.png);
+  }}
+
+  &.color-14 {
+    background-color: #712b78;
+    &:before {
+      background-image:url(../img/14_topo.png);
+    }
+  }
+
+  &.color-15 {
+    background-color: #81328a;
+    &:before {
+      background-image:url(../img/15_topo.png);
+    }
+  }
+
+  &.color-16 {
+    background-color: #6a246e;
+    &:before {
+      background-image:url(../img/16_topo.png);
+    }
+  }
+
+  &.color-17 {
+    background-color: #712b78;
+    margin-bottom: 130px;
+
+    &:before {
+      background-image:url(../img/17_topo.png);
+    }
+
     &:after {
       content: "";
       position: absolute;
@@ -278,7 +374,8 @@ ul.social-icons {
       z-index: 1;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url(../img/09_topo_.png);
+      background-image:url(../img/17_fim.png);
+      background-size: cover;
     }
   }
 }
