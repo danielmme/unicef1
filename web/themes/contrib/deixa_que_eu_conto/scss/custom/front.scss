@@ -495,7 +495,6 @@ section.para-cada-crianca {
   position: relative;
   padding-top: 80px;
   padding-bottom: 230px;
-  margin-bottom: 250px;
   background-color: #009ee3;
 
   .bebe {
@@ -654,22 +653,23 @@ section.curtinhos {
   position: relative;
   padding-top: 310px;
   padding-bottom: 230px;
-  margin-bottom: 50px;
+  margin-bottom: 270px;
   background-color: #6a246e;
 
-  .bailarina {
+  .pintor {
     display: block;
     width: 150px;
     height: 400px;
-    background: url(../../img/bailarina.png) center no-repeat;
+    background: url(../../img/pintor.png) center no-repeat;
     background-size: contain;
     position: absolute;
     right: 0;
-    margin-right: 50px;
-    top: 0;
+    margin-right: 80px;
+    bottom: -160px;
     margin-top: -20px;
+    z-index: 999;
 
-    @include mqrange(0, 1100px) {
+    @include mqrange(0, 1500px) {
       display: none;
     }
   }
@@ -681,8 +681,7 @@ section.curtinhos {
     left: 0;
     height: 206px;
     background: url(../../img/home-section-purple-bottom.png) center bottom no-repeat;
-    bottom: 0px;
-    transform: rotate(180deg);
+    bottom: -206px;
     background-size: cover;
   }
 }
