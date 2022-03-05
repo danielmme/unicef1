@@ -152,6 +152,43 @@
 
   }
 
+  // home curtinhos
+  if ($('.home-curtinhos').length) {
+    console.log('has home curtinhos');
+    $('.home-curtinhos .slider-item-inner').each(function () {
+      // var title = $(this).attr('data-title');
+
+      // var number = title.match(/\d/gm).join('')
+      // console.log(number);
+      // $(this).children('a').children('.programa').html(number);
+      // $(this).children('a').children('.title').html(title.replace('Programa ','').replace(number,'').replace(' – ',''));
+    })
+
+    $('.home-curtinhos .programas-curtinhos .view-content').slick({
+      dots: false,
+      arrows: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+    });
+
+  }
+
   // scroll animations
   AOS.init();
 })(window, document, jQuery);
