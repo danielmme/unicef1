@@ -46,7 +46,7 @@
 .table-content table {
   border-collapse: separate;
   border-spacing: 15px;
-  display: block;
+  display: table;
   width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; }
